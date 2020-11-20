@@ -1,0 +1,36 @@
+{%- if title -%}
+  {%- assign pageTitle = title -%}
+{%- else -%}
+  {%- assign pageTitle = metadata.title -%}
+{%- endif -%}
+{%- if description -%}
+  {%- assign pageDescription = description -%}
+{%- else -%}
+  {%- assign pageDescription = metadata.description -%}
+{%- endif -%}
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="{{ pageDescription }}">
+    {% if draft -%}
+    <meta name="robots" content="noindex">
+    {%- endif %}
+    <title>{{ pageTitle }}</title>
+    <link rel="alternate" href="{{ metadata.feed.path | url }}" type="application/atom+xml" title="{{ metadata.title }}">
+    <link rel="alternate" href="{{ metadata.jsonfeed.path | url }}" type="application/json" title="{{ metadata.title }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="stylesheet" href="/css/main.css">
+  </head>
+  <body>
+    <div class="base" role="document">
+      <main class="main-content" role="main">
+        {{ content }}
+      </main>
+      {% include 'partials/global-footer' %}
+    </div>
+    <script type="text/javascript" defer src="/js/main.js"></script>
+  </body>
+</html>

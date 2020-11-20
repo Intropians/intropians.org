@@ -1,0 +1,67 @@
+a {
+  fill: $colour-link;
+  fill: var(--colour-link);
+  text-decoration: none;
+}
+
+a:link {
+  color: $colour-link;
+  color: var(--colour-link);
+}
+
+a:visited {
+  color: $colour-link-visited;
+  color: var(--colour-link-visited);
+}
+
+a:focus {
+  color: $colour-link-focus;
+  color: var(--colour-link-focus);
+  text-decoration: underline;
+}
+
+a:hover {
+  color: $colour-link-hover;
+  color: var(--colour-link-hover);
+  text-decoration: underline;
+}
+
+a:active {
+  color: $colour-link-active;
+  color: var(--colour-link-active);
+}
+
+@media (prefers-color-scheme: dark) {
+  a:link {
+    color: $dark-colour-link;
+    fill: $dark-colour-link;
+    color: var(--colour-link);
+    fill: var(--colour-link);
+  }
+  
+  a:visited {
+    color: $dark-colour-link-visited;
+    color: var(--colour-link-visited);
+  }
+  
+  a:focus {
+    color: $dark-colour-link-focus;
+    fill: $dark-colour-link-focus;
+    color: var(--colour-link-focus);
+    fill: var(--colour-link-focus);
+    text-decoration: underline;
+  }
+  
+  a:hover {
+    color: $dark-colour-link-hover;
+    fill: $dark-colour-link-hover;
+    color: var(--colour-link-hover);
+    fill: var(--colour-link-hover);
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: $dark-colour-link-active;
+    color: var(--colour-link-active);
+  }
+}

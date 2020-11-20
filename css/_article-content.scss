@@ -1,0 +1,199 @@
+.article-content {
+  margin-bottom: $margin * 2;
+
+  & > *:last-child {
+    margin-bottom: 0;
+  }
+ 
+  h1, h2, h3, h4, h5, h6 {
+    font-family: $font-sans-serif;
+    max-width: $max-readable-width;
+    margin-top: 0;
+    margin-bottom: $margin;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  h1,
+  h2 {
+    font-size: 1.5rem;
+  }
+  h3 {
+    font-size: 1.3rem;
+  }
+  h4 {
+    font-size: 1.1rem;
+  }
+  h5 {
+    font-size: 0.8rem;
+  }
+  h6 {
+    font-size: 0.6rem;
+  }
+  p {
+    max-width: $max-readable-width;
+    margin-top: 0;
+    margin-bottom: $margin;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  ul, ol {
+    max-width: $max-readable-width;
+    padding-left: $margin * 2;
+    margin-bottom: $margin;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  li {
+    margin-bottom: ($margin / 2);
+  }
+
+  hr {
+    max-width: $max-readable-width;
+    border: 0;
+    height: 1px;
+    background-color: $colour-fg-super-light;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: $margin * 2;
+    margin-bottom: $margin * 2;
+  }
+
+  blockquote {
+    max-width: $max-readable-width;
+    padding-left: $margin;
+    padding-right: $margin;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.3rem;
+    padding-top: $margin;
+    margin-bottom: $margin * 2;
+    & > p:last-of-type {
+      margin-bottom: 0;
+    }
+  }
+
+  cite {
+    display: block;
+    font-family: $font-sans-serif;
+    color: $colour-fg-light;
+    padding-top: $margin;
+    font-style: normal;
+    font-size: 0.7rem;
+  }
+
+  table {
+    border-collapse: collapse;
+    font-size: 0.7rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  th {
+    font-family: $font-sans-serif;
+    background-color: $colour-bg-medium;
+    color: $colour-fg-base;
+    border-width: 1px;
+    border-style: solid;
+    border-color: $colour-bg-dark;
+    padding: 0.5em;
+    text-align: left;
+    vertical-align: top;
+  }
+  
+  td {
+    font-family: $font-sans-serif;
+    border-width: 1px;
+    border-style: solid;
+    border-color: $colour-bg-dark;
+    padding: 0.5em;
+    text-align: left;
+    vertical-align: top;
+  }
+  
+  caption {
+    font-family: $font-sans-serif;
+    color: $colour-fg-light;
+    padding-top: 1em;
+    caption-side: bottom;
+    text-align: left;
+    padding-bottom: 1rem;
+    max-width: $max-readable-width;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  figure {
+    margin-left: auto;
+    margin-right: auto;
+    overflow: auto;
+    padding-top: $margin;
+    margin-bottom: $margin * 2;
+  }
+  
+  figcaption {
+    font-family: $font-sans-serif;
+    color: $colour-fg-light;
+    padding-top: $margin;
+    font-size: 0.7rem;
+    max-width: $max-readable-width;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  img {
+    display: block;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+}
+
+@media (prefers-color-scheme: dark) {
+
+  .article-content {
+
+    hr {
+      background-color: $dark-colour-fg-super-light;
+    }
+  
+    cite {
+      color: $dark-colour-fg-light;
+    }
+
+    th {
+      background-color: $dark-colour-bg-medium;
+      color: $dark-colour-fg-base;
+      border-color: $dark-colour-bg-dark;
+    }
+    
+    td {
+      border-color: $dark-colour-bg-dark;
+    }
+    
+    caption {
+      color: $dark-colour-fg-light;
+    }
+
+    figcaption {
+      color: $dark-colour-fg-light;
+    }
+
+  }
+
+}
+
+@media (min-width: 400px) {  
+
+  .article-content {
+
+    blockquote {
+      padding-left: $margin * 2;
+      padding-right: $margin * 2;
+    }
+
+  }
+
+}

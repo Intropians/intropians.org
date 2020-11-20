@@ -1,0 +1,30 @@
+{
+    "name": "intropians",
+    "version": "0.1",
+    "description": "Intropians dot org",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "reset": "rm -rf ./_site && rm -rf ./node_modules",
+        "build:clean": "rm -rf ./_site && npx @11ty/eleventy",
+        "build": "npx @11ty/eleventy",
+        "serve": "npx @11ty/eleventy --serve"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Intropians/intropians.org.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Intropians/intropians.org/issues"
+    },
+    "homepage": "https://github.com/Intropians/intropians.org#readme",
+    "devDependencies": {
+        "@11ty/eleventy": "^0.11.0",
+        "@11ty/eleventy-navigation": "^0.1.6",
+        "@11ty/eleventy-plugin-rss": "^1.0.9",
+        "eleventy-plugin-sass": "^1.1.1"
+    }
+}

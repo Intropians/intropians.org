@@ -1,0 +1,16 @@
+.global-footer {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: $colour-fg-super-light;
+  padding-top: $margin * 2;
+  margin-bottom: $margin * 2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media (prefers-color-scheme: dark) {
+  .global-footer {
+    border-top-color: $dark-colour-fg-super-light;
+  }
+}

@@ -1,0 +1,7 @@
+{%- assign sitePages = collections.pages | eleventyNavigation -%}
+<header role="banner" class="global-header">
+  {% include 'partials/global-header-logo' %}
+  {% if sitePages.size > 1 -%}
+    {% include 'partials/global-header-navigation' sitePages %}
+  {%- endif %}
+</header>

@@ -1,0 +1,14 @@
+body {
+  margin-top: $gutter;
+  margin-bottom: 0;
+  margin-left: $gutter;
+  margin-right: $gutter;
+}
+
+@media (min-width: 400px) {
+  body {
+    margin-top: $large-gutter;
+    margin-left: $large-gutter;
+    margin-right: $large-gutter;
+  }
+}

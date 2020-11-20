@@ -1,0 +1,7 @@
+---
+layout: layouts/base.liquid
+---
+{%- assign postslist = collections.posts | reverse -%}
+{% for post in postslist -%}
+  {% include 'partials/article-list-item' excerpt: post.data.excerpt %}
+{%- endfor %}

@@ -1,0 +1,23 @@
+:root {
+    font-family: $font-serif;
+    font-size: 16px;
+    background-color: $colour-bg-base;
+    color: $colour-fg-base;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    line-height: 1.4;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        background-color: $dark-colour-bg-base;
+        color: $dark-colour-fg-base;
+    }
+}
+
+@media (min-width: 400px) {
+    :root {
+        font-size: 18px;
+    }
+}

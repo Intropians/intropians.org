@@ -1,0 +1,16 @@
+:root {
+    --colour-link: #{$colour-link};
+    --colour-link-hover: #{$colour-link-hover};
+    --colour-link-focus: #{$colour-link-focus};
+    --colour-link-visited: #{$colour-link-visited};
+    --colour-link-active: #{$colour-link-active};
+}
+@media (prefers-color-scheme: dark) {
+    :root {
+        --colour-link: #{$dark-colour-link};
+        --colour-link-hover: #{$dark-colour-link-hover};
+        --colour-link-focus: #{$dark-colour-link-focus};
+        --colour-link-visited: #{$dark-colour-link-visited};
+        --colour-link-active: #{$dark-colour-link-active};
+    }
+}
