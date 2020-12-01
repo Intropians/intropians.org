@@ -1,5 +1,8 @@
 .global-header {
-  padding-top: $margin * 2;
+  max-width: $max-readable-width;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: $margin-large;
   display: flex;
   justify-content: space-between;
 }

@@ -1,4 +1,4 @@
   <article class="article-list-item">
     {% include 'partials/article-title' title: post.data.title, link: post.url %}
-    <p>{{ excerpt }}</p>
+    {% include 'partials/article-excerpt' %}
   </article>
