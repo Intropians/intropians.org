@@ -1,3 +1,9 @@
-<a href="/">
-Intropians
-</a>
+<div class="global-header-logo">
+{% unless title == "Home" -%}
+    <a href="/">
+{%- endunless %}
+        Intropians
+{% unless title == "Home" -%}
+    </a>
+{%- endunless %}
+</div>

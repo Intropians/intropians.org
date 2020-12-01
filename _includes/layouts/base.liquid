@@ -32,5 +32,22 @@
       </main>
       {% include 'partials/global-footer' %}
     </div>
+    <script type="text/javascript">
+
+      
+
+      function isDarkModeEnabled() {
+        return window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+      }
+
+      window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', event => {
+        if (event.matches) {
+          console.log('dark');
+        } else {
+          console.log('light');
+        }
+      });
+
+    </script>
   </body>
 </html>

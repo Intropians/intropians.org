@@ -1,12 +1,12 @@
 :root {
     font-family: $font-serif;
-    font-size: 16px;
+    font-size: 18px;
     background-color: $colour-bg-base;
     color: $colour-fg-base;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    line-height: 1.4;
+    line-height: 1.6;
 }
 
 @media (prefers-color-scheme: dark) {
