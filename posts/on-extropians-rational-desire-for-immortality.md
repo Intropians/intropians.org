@@ -23,7 +23,7 @@ In the most present time, the best way to leave something created by humans that
 
 “*The Computer is a Bicycle For Our Minds. ... the computer is the most remarkable tool that we've ever come up with. It's the equivalent of a bicycle for our minds”* *- Steve Jobs* 
 
-**Homo bots: Code never dies, so does our genetic code**
+### Homo bots: Code never dies, so does our genetic code
 
 Our identities are different online than in real life, for in the former we appear atemporal, disembodied, and faceless. Our online handles don't age like our body does, with wrinkles, grey hair, and other unpleasant deteriorations. As we project ourselves, displaced by our online identity, it is easier for us to conceive of each other as symbols on a screen, rather than living, breathing, organisms. We reduce our flesh-and-blood to a consciousness abstracted away into a symbolic system which could then be uploaded to the cloud. 
 
@@ -38,7 +38,7 @@ In other words, the desire for immortality is actually the search for some sort 
 
 The specter of the scarcity of available-time, thanks to death, over the work which one thinks will save the world or as the work of one's life, haunts over our need for uber-optimization. Our hope for immortality, and henceforth, the search for it, provides the only way to circumvent it by making the available-time abundant, even always in-supply. We can also understand this impetus through the Freudian idea of the “death drive” that is intrinsic in all humans. The concept of the death instincts was initially described in *Beyond the Pleasure Principle,* in which Freud proposed that “the goal of all life is death.” In the most simplest terms, the ‘death drive’ is the drive towards death and destruction that is often expressed through behaviours like aggression, self destruction and repetition compulsion. This force, according to Freud, gets balanced by the “life instinct” that tends to human survival and self-preservation. These instincts are essential for sustaining the life of the individual as well as the continuation of the species. 
 
-**Bored to Death**
+### Bored to Death
 
 With the almost instant availability of everything, everywhere in the world, at the click of a button, thanks to the Internet and its ubiquity, there has been a change in the experience of the passing of time, even in our lifetime, especially as it relates to boredom. In this day and age, we have more and more active forms of boredom, as when we scroll down the phone screen without any interest on what's there and actually feel bored. Yet, we are unable to stop scrolling and look for something else that will interest us, for we are unable to spend the time to look for another activity and eventually do it long enough to fall in to liking it. Such as watching a Bergman movie or reading a Kafka unless we can somewhere time travel straight to the point in the movie where we are finally into it. 
 
@@ -67,7 +67,7 @@ When everything has been rendered so easy, so instant, nothing gives the feeling
 - we talk of ourselves in terms of being a machine: "by default", "chill mode", "hack it", "ping me"
 - we start thinking of ourselves as extensions of these machines -- “Humans can *fly* now”, instead of saying, “we can operate a plane that can fly”
 
-# Positivism as Colonialism 
+### Positivism as Colonialism 
 
 There is indeed an ontological colonialism in blockchain communities. Nowhere has this been more evident than in Ethereum where some have witnessed the following double-standard: 
 on one hand, social science research is encouraged, on the other hand, some research that is perceived to lack scientific rigorousness is downright considered too “wishy-washy”, “fluffy” “not backed by quantitative data”. 
@@ -82,8 +82,7 @@ In other words, many hyper-extropians are in fact exerting a kind of ontological
 
 The ranks of the Austrian economists and their interlocutors were varied. Ludwig von Mises, for instance, created an eccentric, convoluted theoretical framework called *praxeology*, which deduced all subjective human actions and de- sires from logical, axiomatic first principles, “not subject to veri- fication or falsification on the ground of experience and facts.” (p. 123) 
 
-
-**Are we all just Information? The Market and the Reduced Role of Human Agency**
+#### Are we all just Information? The Market and the Reduced Role of Human Agency
 
 Neoliberalism theory, especially the Austrian school of economics has had a dominant influence on the cypherpunk culture. The high-tech Hayekians for example (like Philip Salin) who have adapted Hayek’s ideas into computations have been important figures in Silicon Valley culture.  Today, we are seeing how the high-tech Hayekian culture continues to permeate the lifeworld of developers, especially in Ethereum, currently engrossed in the development of decentralized finance (DeFi). 
   
