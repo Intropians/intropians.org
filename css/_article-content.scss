@@ -1,5 +1,9 @@
 .article-content {
-  margin-bottom: $margin * 2;
+  margin-bottom: $margin-large;
+
+  a {
+    text-decoration: underline;
+  }
 
   & > *:last-child {
     margin-bottom: 0;
@@ -9,14 +13,14 @@
     font-family: $font-sans-serif;
     max-width: $max-readable-width;
     margin-top: 0;
-    margin-bottom: $margin;
+    margin-bottom: $margin-small;
     margin-left: auto;
     margin-right: auto;
   }
 
   h1,
   h2 {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   }
 
   h3 {
@@ -42,7 +46,7 @@
 
   ul, ol {
     max-width: $max-readable-width;
-    padding-left: $margin * 2;
+    padding-left: $margin;
     margin-bottom: $margin;
     margin-left: auto;
     margin-right: auto;
@@ -56,11 +60,11 @@
     max-width: $max-readable-width;
     border: 0;
     height: 1px;
-    background-color: $colour-fg-super-light;
+    background-color: $colour-fg-base;
     margin-left: auto;
     margin-right: auto;
-    margin-top: $margin * 2;
-    margin-bottom: $margin * 2;
+    margin-top: $margin-large;
+    margin-bottom: $margin-large;
   }
 
   blockquote {
@@ -71,7 +75,8 @@
     margin-right: auto;
     font-size: 1.3rem;
     padding-top: $margin;
-    margin-bottom: $margin * 2;
+    margin-bottom: $margin-large;
+    font-style: italic;
     & > p:last-of-type {
       margin-bottom: 0;
     }
@@ -80,7 +85,6 @@
   cite {
     display: block;
     font-family: $font-sans-serif;
-    color: $colour-fg-light;
     padding-top: $margin;
     font-style: normal;
     font-size: 0.7rem;
@@ -95,21 +99,27 @@
   
   th {
     font-family: $font-sans-serif;
-    background-color: $colour-bg-medium;
-    color: $colour-fg-base;
     border-width: 1px;
     border-style: solid;
-    border-color: $colour-bg-dark;
+    border-color: $colour-fg-base;
     padding: 0.5em;
     text-align: left;
     vertical-align: top;
+  }
+
+  thead th {
+    border-bottom-width: 3px;
+  }
+
+  tfoot th {
+    border-top-width: 3px;
   }
   
   td {
     font-family: $font-sans-serif;
     border-width: 1px;
     border-style: solid;
-    border-color: $colour-bg-dark;
+    border-color: $colour-fg-base;
     padding: 0.5em;
     text-align: left;
     vertical-align: top;
@@ -117,7 +127,6 @@
   
   caption {
     font-family: $font-sans-serif;
-    color: $colour-fg-light;
     padding-top: 1em;
     caption-side: bottom;
     text-align: left;
@@ -132,12 +141,11 @@
     margin-right: auto;
     overflow: auto;
     padding-top: $margin;
-    margin-bottom: $margin * 2;
+    margin-bottom: $margin-large;
   }
   
   figcaption {
     font-family: $font-sans-serif;
-    color: $colour-fg-light;
     padding-top: $margin;
     font-size: 0.7rem;
     max-width: $max-readable-width;
@@ -160,29 +168,15 @@
   .article-content {
 
     hr {
-      background-color: $dark-colour-fg-super-light;
-    }
-  
-    cite {
-      color: $dark-colour-fg-light;
+      background-color: $dark-colour-fg-base;
     }
 
     th {
-      background-color: $dark-colour-bg-medium;
-      color: $dark-colour-fg-base;
-      border-color: $dark-colour-bg-dark;
+      border-color: $dark-colour-fg-base;
     }
     
     td {
-      border-color: $dark-colour-bg-dark;
-    }
-    
-    caption {
-      color: $dark-colour-fg-light;
-    }
-
-    figcaption {
-      color: $dark-colour-fg-light;
+      border-color: $dark-colour-fg-base;
     }
 
   }
@@ -194,8 +188,12 @@
   .article-content {
 
     blockquote {
-      padding-left: $margin * 2;
-      padding-right: $margin * 2;
+      padding-left: $margin-large;
+      padding-right: $margin-large;
+    }
+
+    ul, ol {
+      padding-left: $margin-large;
     }
 
   }

@@ -116,6 +116,18 @@ Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. M
 
 Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec ullamcorper nulla non metus auctor fringilla. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Etiam porta sem malesuada magna mollis euismod.
 
+<figure class="article-image-constrained">
+  <img src="https://theblockchainland.com/wp-content/uploads/2018/06/Vitalik-Buterin.png" alt="Vitalik Buterin">
+  <figcaption>Mr. Vitalik Buterin (this demonstrates a large image constrained to the width of the text)</figcaption>
+</figure>
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit. Cras mattis consectetur purus sit amet fermentum.
+
+<figure>
+  <img src="https://theblockchainland.com/wp-content/uploads/2018/06/Vitalik-Buterin.png" alt="Vitalik Buterin">
+  <figcaption>Mr. Vitalik Buterin (this demonstrates a large image <strong>unconstrained</strong> to the width of the text)</figcaption>
+</figure>
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit. Cras mattis consectetur purus sit amet fermentum.
 
 ------------------

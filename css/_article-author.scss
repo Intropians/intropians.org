@@ -1,8 +1,6 @@
 .article-author {
   margin-top: 0;
-  margin-bottom: $margin * 2;
-  opacity: 0.7;
-  &::before {
-    content: '- '
-  }
+  margin-bottom: $margin-small;
+  font-style: italic;
+  font-size: 0.8rem;
 }

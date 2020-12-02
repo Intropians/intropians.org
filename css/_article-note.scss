@@ -1,15 +1,8 @@
 .article-note {
-  padding: $margin;
-  background-color: $colour-bg-medium;
+  font-style: italic;
   max-width: $max-readable-width;
-  margin-bottom: $margin;
-  font-family: $font-sans-serif;
+  margin-bottom: $margin-small;
   font-size: 0.8rem;
   margin-left: auto;
   margin-right: auto;
-}
-@media (prefers-color-scheme: dark) {
-  .article-note {
-      background-color: $dark-colour-bg-medium;
-  }
 }

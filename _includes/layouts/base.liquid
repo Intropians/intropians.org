@@ -25,16 +25,15 @@
     <link rel="stylesheet" href="/css/main.css">
   </head>
   <body>
-    <div class="base" role="document">
+    <div role="document">
       {% include 'partials/global-header' %}
       <main class="main-content" role="main">
         {{ content }}
       </main>
       {% include 'partials/global-footer' %}
     </div>
+    {% comment %}
     <script type="text/javascript">
-
-      
 
       function isDarkModeEnabled() {
         return window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
@@ -47,7 +46,7 @@
           console.log('light');
         }
       });
-
     </script>
+    {% endcomment %}
   </body>
 </html>

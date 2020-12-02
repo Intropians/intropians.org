@@ -1,8 +1,19 @@
 ---
 layout: layouts/base.liquid
 ---
-<article class="article">
-  {% include 'partials/article-header' %}
+{%- if post -%}
+  {%- assign articleDate = post.date -%}
+  {%- assign articleTitle = post.data.title -%}
+  {%- assign articleLink = post.url -%}
+{%- else -%}
+  {%- assign articleDate = page.date -%}
+  {%- assign articleTitle = title -%}
+  {%- assign articleLink = false -%}
+{%- endif -%}
+<article>
+  <header>
+  {% include 'partials/article-title' %}
+  </header>
   {% if note -%}
     {% include 'partials/article-note' %}
   {%- endif %}

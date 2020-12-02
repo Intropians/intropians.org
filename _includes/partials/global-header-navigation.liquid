@@ -1,7 +1,0 @@
-<nav class="global-header-navigation">
-  <ul>
-    {% for sitePage in sitePages -%}
-      <li{% if sitePage.url == page.url %} class="current"{% endif %}><a href="{{ sitePage.url | url }}">{{ sitePage.data.eleventyNavigation.key }}</a></li>
-    {%- endfor %}
-  </ul>
-</nav>
