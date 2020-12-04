@@ -1,0 +1,37 @@
+@font-face {
+    font-family: Barlow;
+    font-weight: 400;
+    font-display: swap;
+    src: local("Barlow Regular"), local("Barlow-Regular"), url(/fonts/Barlow-Regular.woff2) format("woff2");
+}
+
+@font-face {
+    font-family: Barlow;
+    font-weight: 700;
+    font-display: swap;
+    src: local("Barlow Bold"), local("Barlow-Bold"), url(/fonts/Barlow-Bold.woff2) format("woff2");
+}
+
+@font-face {
+    font-family: Redaction;
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+    src: local("Redaction Regular"), local("Redaction-Regular"), url(/fonts/Redaction-Regular.woff2) format("woff2");
+}
+
+@font-face {
+    font-family: Redaction;
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+    src: local("Redaction Italic"), local("Redaction-Italic"), url(/fonts/Redaction-Italic.woff2) format("woff2");
+}
+
+@font-face {
+    font-family: Redaction;
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+    src: local("Redaction Bold"), local("Redaction-Bold"), url(/fonts/Redaction-Bold.woff2) format("woff2");
+}
