@@ -21,5 +21,6 @@ module.exports = eleventyConfig => {
     "njk"
   ]);
   eleventyConfig.addPassthroughCopy("images");
+  eleventyConfig.addPassthroughCopy("fonts");
   eleventyConfig.addPassthroughCopy("js");
 };

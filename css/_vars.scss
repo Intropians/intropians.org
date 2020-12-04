@@ -2,11 +2,11 @@
 
 $colour-mantis: rgb(105,193,76);
 
-$colour-bg-base: rgb(255,255,255);
-$colour-fg-base: rgb(0,0,0);
+$colour-bg-base: rgb(230,230,230);
+$colour-fg-base: rgb(25,25,25);
 
-$dark-colour-bg-base: rgb(0,0,0);
-$dark-colour-fg-base: rgb(255,255,255);
+$dark-colour-bg-base: rgb(25,25,25);
+$dark-colour-fg-base: rgb(230,230,230);
 
 $colour-link: rgb(0,0,0);
 $colour-link-hover: rgb(0,0,0);
@@ -21,8 +21,8 @@ $dark-colour-link-visited: rgb(255,255,255);
 $dark-colour-link-active: rgb(255,255,255);
 
 $max-readable-width: 34rem;
-$font-sans-serif: "Helvetica Neue", Helvetica, "Arimo", Arial, sans-serif;
-$font-serif: "Times New Roman", "Tinos", Times, serif;
+$font-sans-serif: "Barlow", "Helvetica Neue", Helvetica, "Arimo", Arial, sans-serif;
+$font-serif: "Redaction", "Times New Roman", "Tinos", Times, serif;
 $gutter: 1rem;
 $large-gutter: 2rem;
 $margin-small: 0.3rem;
