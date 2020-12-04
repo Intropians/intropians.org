@@ -14,7 +14,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="{{ pageDescription }}">
-    {% if draft -%}
+    {% if eleventyExcludeFromCollections -%}
     <meta name="robots" content="noindex">
     {%- endif %}
     <title>{{ pageTitle }}</title>
