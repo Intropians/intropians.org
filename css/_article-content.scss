@@ -70,11 +70,10 @@
 
   blockquote {
     max-width: $max-readable-width;
-    padding-left: $margin;
-    padding-right: $margin;
+    padding-left: 0;
+    padding-right: 0;
     margin-left: auto;
     margin-right: auto;
-    font-size: 1.3rem;
     padding-top: $margin;
     margin-bottom: $margin-large;
     font-style: italic;
@@ -190,8 +189,8 @@
   .article-content {
 
     blockquote {
-      padding-left: $margin-large;
-      padding-right: $margin-large;
+      padding-left: $margin;
+      padding-right: $margin;
     }
 
     ul, ol {
