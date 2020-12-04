@@ -4,7 +4,7 @@ excerpt: In regular design work, the idea of the product is taken as a given, wi
 author: Ann Brody, Anuj Das Gupta, and Stephen Farrugia
 date: 2020-11-15
 note: This is an unfinished work of genius
-eleventyExcludeFromCollections: false
+eleventyExcludeFromCollections: true
 ---
 
 In regular design work, the idea of the product is taken as a given, with the work that remains to be done, as what is to be legitimized as design, is that of realizing that idea into a reality. That idea of the product -- both in terms of the necessity of the product to exist, and as what the product is about -- has already been decided upon, is no more of question, thereby, leaving the work of the designer as primarily helping to realize that potential behind the idea to the actuality of the real product. 

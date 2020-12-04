@@ -3,7 +3,7 @@ title: On Extropian’s “rational” desire for immortality
 excerpt: What we hope to shed more light on is the idea that behind the extropian urge to be faster, there is a rational desire to be able to slow down, take one’s time, and finally smell the roses.
 author: Ann Brody, Anuj Das Gupta, and Stephen Farrugia
 date: 2020-09-15
-eleventyExcludeFromCollections: false
+eleventyExcludeFromCollections: true
 ---
 
 # Introduction
