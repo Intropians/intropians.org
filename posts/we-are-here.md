@@ -1,7 +1,7 @@
 ---
 title: Finally, we are here
 excerpt: We are the Intropians, a critique of the extropian movement.
-author: Ann Brody, Anuj Das Gupta, and Stephen Farrugia
+author: egregore
 date: 2020-12-04
 eleventyExcludeFromCollections: false
 ---
@@ -22,16 +22,16 @@ Extropy was coined by Tom Bell and defined by Max More in 1988 as “the extent 
 
 It has been well documented that the history of digital cash (pre-Bitcoin) was influenced by the philosophy of the Extropians. Many of the early cypherpunks were committed to extropian ideals and experimentation. For example, Hal Finney,  who was deeply involved in the creation of bitcoin, to eventually received the first Bitcoin from Satoshi Nakamoto, had been diagnosed with *amyotrophic lateral sclerosis* (ALS) and was cryogenically frozen at Alcor Corps.
 
-<figure class="article-image-constrained">
-  <img src="/images/hal-finney.webp" alt="Hal Finney">
-  <figcaption>Hal Finney</figcaption>
+<figure>
+  <img src="/images/hal-finney-max-more-nick-bostrom.webp" alt="Hal Finney, Max More, and Nick Bostrom">
+  <figcaption>Hal Finney, Max More, and Nick Bostrom</figcaption>
 </figure>
 
-On a similar note, [Ethereum co-founder, Vitalik Buterin, has donated a substantial amount of funds to cryonic-oriented projects.](https://breakermag.com/the-bitcoiners-who-want-to-defeat-death/) On twitter, Buterin has known to have mentioned the fable of the Dragon Tyrant by [Nick Bostrom to promote life-extension efforts.](https://www.nickbostrom.com/fable/dragon.html#:~:text=In%20the%20fable%2C%20people's%20expectations,of%20human%20suffering%20and%20death.) 
+On a similar note, Ethereum co-founder, Vitalik Buterin, has donated a substantial amount of funds to [cryonic-oriented projects](https://breakermag.com/the-bitcoiners-who-want-to-defeat-death/). On twitter, Buterin has known to have mentioned the fable of the [Dragon Tyrant](https://www.nickbostrom.com/fable/dragon.html#:~:text=In%20the%20fable%2C%20people's%20expectations,of%20human%20suffering%20and%20death.) by Nick Bostrom to promote life-extension efforts. 
 
 <figure class="article-image-constrained">
-  <img src="https://paper-attachments.dropbox.com/s_69461261A652ADC8F9742F33BE31C3DB4EC6D7380F8405632F04E61B2A6407F3_1606941986272_Screen+Shot+2020-12-02+at+3.46.19+PM.png" alt="Vitalik Buterin's tweet about the Life Extension Advocacy Foundation">
-  <figcaption>Vitalik Buterin's tweet about the Life Extension Advocacy Foundation</figcaption>
+  <img src="/images/vitalik-buterin-twitter.webp" alt="Vitalik Buterin's tweet about the Life Extension Advocacy Foundation">
+  <figcaption><a href="https://twitter.com/VitalikButerin/status/1314074809140043778">Vitalik Buterin's tweet</a> about the Life Extension Advocacy Foundation</figcaption>
 </figure>
 
 The progenitors of digital cash were one of the first few subcultures who started to question how a kind of money could hold its valuation into the future irrespective of nation states coming to or going out of power. In the sense of a money that never dies, this acts as an economic manifestation of their drive to gain immortality.  They wanted the value of money to never cease/die, so Bitcoin became an instrument that could store value “forever” — once saved, it would never get unsaved, and hence its unquestionable faith in the logic of immutability. 
