@@ -20,9 +20,12 @@
     <title>{{ pageTitle }}</title>
     <link rel="alternate" href="{{ metadata.feed.path | url }}" type="application/atom+xml" title="{{ metadata.title }}">
     <link rel="alternate" href="{{ metadata.jsonfeed.path | url }}" type="application/json" title="{{ metadata.title }}">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="reload" href="/css/main.css" as="style">
+    <link rel="preload" href="/fonts/Barlow-Regular.woff2" as="font" type="font/woff2" crossorigin> 
+    <link rel="preload" href="/fonts/Barlow-Bold.woff2" as="font" type="font/woff2" crossorigin> 
+    <link rel="preload" href="/fonts/Redaction-Regular.woff2" as="font" type="font/woff2" crossorigin> 
+    <link rel="preload" href="/fonts/Redaction-Italic.woff2" as="font" type="font/woff2" crossorigin> 
+    <link rel="preload" href="/fonts/Redaction-Bold.woff2" as="font" type="font/woff2" crossorigin> 
+    <link rel="preload" href="/css/main.css" as="style">
   </head>
   <body>
     <div role="document">
