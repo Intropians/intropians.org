@@ -1,13 +1,7 @@
 .global-hr {
   border: 0;
   height: 1px;
-  background-color: $colour-fg-base;
+  background-color: currentColor;
   margin-top: $margin-large;
   margin-bottom: $margin-large;
-}
-
-@media (prefers-color-scheme: dark) {
-  .global-hr {
-    background-color: $dark-colour-fg-base;
-  }
 }

@@ -61,7 +61,7 @@
     max-width: $max-readable-width;
     border: 0;
     height: 1px;
-    background-color: $colour-fg-base;
+    background-color: currentColor;
     margin-left: auto;
     margin-right: auto;
     margin-top: $margin-large;
@@ -103,7 +103,7 @@
     font-weight: 700;
     border-width: 1px;
     border-style: solid;
-    border-color: $colour-fg-base;
+    border-color: currentColor;
     padding: 0.5em;
     text-align: left;
     vertical-align: top;
@@ -121,7 +121,7 @@
     font-family: $font-sans-serif;
     border-width: 1px;
     border-style: solid;
-    border-color: $colour-fg-base;
+    border-color: currentColor;
     padding: 0.5em;
     text-align: left;
     vertical-align: top;
@@ -167,26 +167,6 @@
     margin-right: auto;
   }
   
-}
-
-@media (prefers-color-scheme: dark) {
-
-  .article-content {
-
-    hr {
-      background-color: $dark-colour-fg-base;
-    }
-
-    th {
-      border-color: $dark-colour-fg-base;
-    }
-    
-    td {
-      border-color: $dark-colour-fg-base;
-    }
-
-  }
-
 }
 
 @media (min-width: 400px) {  

@@ -10,15 +10,13 @@
     line-height: 1.6;
 }
 
+:root[theme="dark"] {
+    background-color: $dark-colour-bg-base;
+    color: $dark-colour-fg-base;
+}
+
 @media (min-width: 400px) {
     :root {
         font-size: 18px;
-    }
-}
-
-@media (prefers-color-scheme: dark) {
-    :root {
-        background-color: $dark-colour-bg-base;
-        color: $dark-colour-fg-base;
     }
 }
