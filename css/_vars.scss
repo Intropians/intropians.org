@@ -8,19 +8,20 @@ $colour-fg-base: rgb(25,25,25);
 $dark-colour-bg-base: rgb(25,25,25);
 $dark-colour-fg-base: rgb(230,230,230);
 
-$colour-link: rgb(0,0,0);
-$colour-link-hover: rgb(0,0,0);
-$colour-link-focus: rgb(0,0,0);
-$colour-link-visited: rgb(0,0,0);
-$colour-link-active: rgb(0,0,0);
+$colour-link: rgb(25,25,25);
+$colour-link-hover: rgb(25,25,25);
+$colour-link-focus: rgb(25,25,25);
+$colour-link-visited: rgb(25,25,25);
+$colour-link-active: rgb(25,25,25);
 
-$dark-colour-link:rgb(255,255,255);
-$dark-colour-link-hover: rgb(255,255,255);
-$dark-colour-link-focus: rgb(255,255,255);
-$dark-colour-link-visited: rgb(255,255,255);
-$dark-colour-link-active: rgb(255,255,255);
+$dark-colour-link:rgb(230,230,230);
+$dark-colour-link-hover: rgb(230,230,230);
+$dark-colour-link-focus: rgb(230,230,230);
+$dark-colour-link-visited: rgb(230,230,230);
+$dark-colour-link-active: rgb(230,230,230);
 
 $max-readable-width: 34rem;
+$max-content-width: 50rem;
 $font-sans-serif: "Barlow", "Helvetica Neue", Helvetica, "Arimo", Arial, sans-serif;
 $font-serif: "Redaction", "Times New Roman", "Tinos", Times, serif;
 $gutter: 1rem;

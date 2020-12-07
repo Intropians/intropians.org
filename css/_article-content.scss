@@ -74,8 +74,9 @@
     padding-right: 0;
     margin-left: auto;
     margin-right: auto;
-    padding-top: $margin;
+    margin-top: $margin-large;
     margin-bottom: $margin-large;
+    border-left: 2px solid currentColor;
     font-style: italic;
     & > p:last-of-type {
       margin-bottom: 0;
@@ -87,12 +88,12 @@
     font-family: $font-sans-serif;
     padding-top: $margin;
     font-style: normal;
-    font-size: 0.7rem;
+    font-size: 0.8rem;
   }
 
   table {
     border-collapse: collapse;
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     margin-left: auto;
     margin-right: auto;
   }
@@ -143,12 +144,16 @@
     overflow: auto;
     padding-top: $margin;
     margin-bottom: $margin-large;
+    max-width: $max-content-width;
+    &.article-image-constrained {
+      max-width: $max-readable-width;
+    }
   }
   
   figcaption {
     font-family: $font-sans-serif;
     padding-top: $margin;
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     max-width: $max-readable-width;
     text-align: center;
     margin-left: auto;
@@ -190,7 +195,6 @@
 
     blockquote {
       padding-left: $margin;
-      padding-right: $margin;
     }
 
     ul, ol {
