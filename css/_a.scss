@@ -25,7 +25,7 @@ a:active {
   color: $colour-link-active;
 }
 
-:root[theme="dark"] {
+[data-theme="dark"] {
   a:link {
     color: $dark-colour-link;
     fill: $dark-colour-link;
@@ -49,5 +49,34 @@ a:active {
   
   a:active {
     color: $dark-colour-link-active;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme]) {
+    a:link {
+      color: $dark-colour-link;
+      fill: $dark-colour-link;
+    }
+    
+    a:visited {
+      color: $dark-colour-link-visited;
+    }
+    
+    a:focus {
+      color: $dark-colour-link-focus;
+      fill: $dark-colour-link-focus;
+      text-decoration: underline;
+    }
+    
+    a:hover {
+      color: $dark-colour-link-hover;
+      fill: $dark-colour-link-hover;
+      text-decoration: underline;
+    }
+    
+    a:active {
+      color: $dark-colour-link-active;
+    }
   }
 }

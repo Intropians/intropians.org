@@ -1,0 +1,55 @@
+.theme-button {
+    appearance: none;
+    -webkit-appearance: none;
+    border-width: 0;
+    overflow: visible;
+    line-height: inherit;
+    font-family: $font-sans-serif;
+    font-size: 0.8rem;
+    color: currentColor;
+    text-transform: none;
+    padding: 0;
+    white-space: nowrap;
+    background-color: transparent;
+    position: relative;
+    cursor: pointer;
+    &::-moz-focus-inner {
+        border-style: none;
+        padding: 0;
+    }
+    &:hover {
+        text-decoration: underline;
+    }
+    &:focus {
+        text-decoration: underline;
+        color: $colour-mantis;
+        outline: none;
+    }
+    &::before {
+        content: "";
+        position: absolute;
+        top: -4px;
+        width: 2px;
+        height: 2px;
+        border-radius: 1px;
+        left: calc(50% - 1px);
+    }
+}
+
+[data-theme-preference="auto"] {
+    .theme-button--auto::before {
+        background-color: currentColor;
+    }
+}
+
+[data-theme-preference="dark"] {
+    .theme-button--dark::before {
+        background-color: currentColor;
+    }
+}
+
+[data-theme-preference="light"] {
+    .theme-button--light::before {
+        background-color: currentColor;
+    }
+}

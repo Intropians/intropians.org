@@ -1,0 +1,13 @@
+.theme-buttons {
+    display: flex;
+    margin-top: 0;
+    margin-bottom: 0;
+    .theme-buttons__title {
+        display: none;
+    }
+    .theme-buttons__item {
+        margin-left: $margin-small;
+        margin-right: $margin-small;
+
+    }
+}

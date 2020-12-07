@@ -35,51 +35,6 @@
       </main>
       {% include 'partials/global-footer' %}
     </div>
-    <script type="text/javascript">
-
-      COLOUR_THEME_MEDIA_QUERY =          '(prefers-color-scheme: dark)';
-      COLOUR_THEME_DATA_ATTRIBUTE_LABEL = 'theme';
-      COLOUR_THEME_DARK_LABEL =           'dark';
-      COLOUR_THEME_LIGHT_LABEL =          'light';
-      COLOUR_THEME_AUTO_LABEL =           'auto';
-
-      function getThemePreference() {
-        return localStorage.getItem(COLOUR_THEME_DATA_ATTRIBUTE_LABEL) || COLOUR_THEME_AUTO_LABEL;
-      }
-
-      function setThemePreference(theme) {
-        localStorage.setItem(COLOUR_THEME_DATA_ATTRIBUTE_LABEL, theme); 
-        setTheme();
-      }
-
-      function getOSTheme() {
-        if (window.matchMedia && window.matchMedia(COLOUR_THEME_MEDIA_QUERY).matches) {
-          return COLOUR_THEME_DARK_LABEL;
-        } else {
-          return COLOUR_THEME_LIGHT_LABEL;
-        }
-      }
-
-      window.matchMedia(COLOUR_THEME_MEDIA_QUERY).addEventListener('change', event => {
-        if (getThemePreference() === COLOUR_THEME_AUTO_LABEL) setTheme();
-      });
-
-      function setTheme() {
-        rootNode = document.documentElement;
-        themePreference = getThemePreference();
-      
-        if (themePreference === COLOUR_THEME_AUTO_LABEL) {
-          
-          rootNode.setAttribute(COLOUR_THEME_DATA_ATTRIBUTE_LABEL, getOSTheme());
-          return;
-        } 
-        rootNode.setAttribute(COLOUR_THEME_DATA_ATTRIBUTE_LABEL, themePreference);
-      }
-
-      setTheme();
-
-      
-
-    </script>
+    <script async defer type="text/javascript" src="/js/main.js" charset="utf-8"></script>
   </body>
 </html>
