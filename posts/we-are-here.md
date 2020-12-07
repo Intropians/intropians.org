@@ -23,14 +23,14 @@ Extropy was coined by [Tom Bell](https://hpluspedia.org/wiki/Tom_Bell) and defin
 It has been well documented that the history of digital currency (pre-Bitcoin) was influenced by the philosophy of the Extropians. Many of the early cypherpunks were committed to extropian ideals and experimentation. For example, [Hal Finney](https://en.wikipedia.org/wiki/Hal_Finney_(computer_scientist)),  who was deeply involved in the creation of bitcoin and received the first Bitcoin from Satoshi Nakamoto was diagnosed with *amyotrophic lateral sclerosis* (<abbr title="Amyotrophic Lateral Sclerosis">ALS</abbr>). Immediately after his death he was cryogenically frozen, as he requested, at Alcor Corps.
 
 <figure>
-  <img src="/images/hal-finney-max-more-nick-bostrom.webp" alt="Hal Finney, Max More, and Nick Bostrom">
+  <img src="/images/hal-finney-max-more-nick-bostrom.jpg" alt="Hal Finney, Max More, and Nick Bostrom">
   <figcaption>Hal Finney, Max More, and Nick Bostrom</figcaption>
 </figure>
 
-On a similar note, Ethereum co-founder, Vitalik Buterin, has donated a substantial amount of funds [to cryonic-oriented projects](https://breakermag.com/the-bitcoiners-who-want-to-defeat-death/). On Twitter, Buterin has been known to mention the fable of the [Dragon Tyrant](https://www.nickbostrom.com/fable/dragon.html#:~:text=In%20the%20fable%2C%20people's%20expectations,of%20human%20suffering%20and%20death.) by [Nick Bostrom](https://en.wikipedia.org/wiki/Nick_Bostrom) to promote life-extension efforts. 
+On a similar note, Ethereum co-founder, Vitalik Buterin, has donated a substantial amount of funds [to cryonic-oriented projects](https://breakermag.com/the-bitcoiners-who-want-to-defeat-death/). On Twitter, Buterin has been known to mention the fable of the [Dragon Tyrant](https://www.nickbostrom.com/fable/dragon.html#:~:text=In%20the%20fable%2C%20people's%20expectations,of%20human%20suffering%20and%20death.) by [Nick Bostrom](https://en.wikipedia.org/wiki/Nick_Bostrom) to promote life-extension efforts.
 
 <figure class="article-image-constrained">
-  <img src="/images/vitalik-buterin-twitter.webp" alt="Vitalik Buterin's tweet about the Life Extension Advocacy Foundation">
+  <img src="/images/vitalik-buterin-twitter.jpg" alt="Vitalik Buterin's tweet about the Life Extension Advocacy Foundation">
   <figcaption><a href="https://twitter.com/VitalikButerin/status/1314074809140043778">Vitalik Buterin's tweet</a> about the Life Extension Advocacy Foundation</figcaption>
 </figure>
 
