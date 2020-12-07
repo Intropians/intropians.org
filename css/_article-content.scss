@@ -70,7 +70,7 @@
 
   blockquote {
     max-width: $max-readable-width;
-    padding-left: 0;
+    padding-left: $margin;
     padding-right: 0;
     margin-left: auto;
     margin-right: auto;
@@ -172,10 +172,6 @@
 @media (min-width: 400px) {  
 
   .article-content {
-
-    blockquote {
-      padding-left: $margin;
-    }
 
     ul, ol {
       padding-left: $margin-large;
