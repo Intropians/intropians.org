@@ -1,6 +1,6 @@
 {
     "title": "Intropians",
-    "url": "https://www.intropians.org/",
+    "url": "https://www.intropians.org",
     "description": "Intropians",
     "twitter": {
       "url": "https://twitter.com/intropians",
@@ -10,7 +10,7 @@
       "subtitle": "Intropians",
       "filename": "feed.xml",
       "path": "/feed/feed.xml",
-      "id": "https://www.intropians.org/"
+      "id": "https://www.intropians.org"
     },
     "jsonfeed": {
       "path": "/feed/feed.json",
@@ -19,7 +19,7 @@
     "author": {
       "name": "The Intropians",
       "email": "hello@intropians.org",
-      "url": "https://www.intropians.org/"
+      "url": "https://www.intropians.org"
     }
   }
   
