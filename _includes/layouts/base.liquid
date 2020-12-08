@@ -3,7 +3,9 @@
 {%- else -%}
   {%- assign pageTitle = metadata.title -%}
 {%- endif -%}
-{%- if description -%}
+{%- if excerpt -%}
+  {%- assign pageDescription = excerpt -%}
+{%- elseif description -%}
   {%- assign pageDescription = description -%}
 {%- else -%}
   {%- assign pageDescription = metadata.description -%}
