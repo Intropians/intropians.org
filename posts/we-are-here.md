@@ -51,7 +51,7 @@ With the modernist loss of enchantment, death has lost any meaning, it is now a 
 
 This is not a total loss however, lest we forget that:
 
-> "Any sufficiently advanced technology is indistinguishable from magic"
+> Any sufficiently advanced technology is indistinguishable from magic
 > <cite>Arthur C. Clark, <a href="https://en.wikipedia.org/wiki/Clarke%27s_three_laws">Hazards of Prophecy: The Failure of Imagination, 1962</a></cite>
  
 This is reflected in how those in the immutability regime are in awe of the protocol, intent on keeping all past transactions untouchable, like the sacred from ancient times. Precisely, the locus of enchantment has been shifted with modernity from the archetypal myths to the ~~(infinite money)~~ machines, for we still aspire to materialize the fountain of youth, we are far from giving up on our dream to be drunk on the elixir for eternal life. To ~~en~~chant, is to be human.

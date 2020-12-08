@@ -15,7 +15,7 @@ window.matchMedia(COLOUR_THEME_MEDIA_QUERY).addEventListener('change', event => 
 
 themeButtons.forEach(themeButton => {
     themeButton.addEventListener('click', event => {
-        setThemePreference(themeButton.textContent);
+        setThemePreference(themeButton.textContent.trim());
     });
 });
 
