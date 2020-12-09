@@ -2,8 +2,24 @@
   font-family: $font-sans-serif;
   font-weight: 700;
   font-size: 0.8rem;
-  color: $colour-mantis;
+  color: $colour-secondary;
 }
+
+:root[data-theme="dark"] {
+  .global-logo {
+    color: $colour-secondary-on-dark;
+  }
+  
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme]) {
+    .global-logo {
+      color: $colour-secondary-on-dark;
+    }    
+  }
+}
+
 
 a.global-logo__link {
   &,

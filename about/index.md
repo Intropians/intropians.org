@@ -1,8 +1,7 @@
 ---
 layout: layouts/page.liquid
-title: About
-eleventyExcludeFromCollections: true
-draft: true
+title: About Intropians
+description: Maecenas sed diam eget risus varius blandit sit amet non magna.
 tags:
   - pages
 eleventyNavigation:

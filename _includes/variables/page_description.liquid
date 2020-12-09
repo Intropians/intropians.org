@@ -1,0 +1,7 @@
+{%- if excerpt -%}
+    {%- assign page_description = excerpt -%}
+{%- elsif description -%}
+    {%- assign page_description = description -%}
+{%- else -%}
+    {%- assign page_description = metadata.description -%}
+{%- endif -%}
