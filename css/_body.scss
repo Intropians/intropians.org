@@ -3,6 +3,7 @@ body {
   margin-bottom: 0;
   margin-left: $gutter;
   margin-right: $gutter;
+  background-color: inherit;
 }
 
 @media (min-width: 400px) {

@@ -1,0 +1,7 @@
+{%- if home -%}
+    {%- assign page_title = metadata.title -%}
+{%- elsif title -%}
+    {%- assign page_title = title -%}
+{%- else -%}
+    {%- assign page_title = metadata.title -%}
+{%- endif -%}

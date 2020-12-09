@@ -1,0 +1,14 @@
+{%- if theme == 'auto' -%}
+    {%- assign ariaLabel = 'Auto-adjust to your device setting' -%}
+{%- else -%}
+    {%- capture ariaLabel -%}
+    Activate the {{ theme }} theme
+    {%- endcapture -%}
+{%- endif -%}
+<button
+    type="button"
+    class="theme-button theme-button--{{ theme }}"
+    aria-label="{{ariaLabel}}"
+>
+    {{ theme }}
+</button>
