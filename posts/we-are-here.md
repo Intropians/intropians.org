@@ -3,7 +3,7 @@ title: Finally, we are here
 excerpt: We are the Intropians, a critique of the extropian movement.
 author: Egregore
 date: 2020-12-04
-eleventyExcludeFromCollections: false
+eleventyExcludeFromCollections: true
 ---
 
 We are the Intropians, a critique of the extropian movement. 
