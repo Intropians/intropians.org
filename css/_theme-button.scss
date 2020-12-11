@@ -22,7 +22,7 @@
     }
     &:focus {
         text-decoration: underline;
-        color: $colour-mantis;
+        color: $colour-secondary;
         outline: none;
     }
     &::before {
@@ -33,6 +33,20 @@
         height: 2px;
         border-radius: 1px;
         left: calc(50% - 1px);
+    }
+}
+
+:root[data-theme="dark"] {
+    .theme-button:focus {
+        color: $colour-secondary-on-dark;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    :root:not([data-theme]) {
+        .theme-button:focus {
+            color: $colour-secondary-on-dark;
+        }
     }
 }
 

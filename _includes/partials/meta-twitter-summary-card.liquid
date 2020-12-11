@@ -1,7 +1,8 @@
-    <meta property="twitter:card" content="summary">
-    <meta property="twitter:url" content="{{ page_url }}">
-    <meta property="twitter:title" content="{{ page_title }}">
-    <meta property="twitter:site" content="@intropians">
-    <meta property="twitter:description" content="{{ page_description }}">
-    <meta property="twitter:image" content="{{ metadata.url }}/images/twitter-card-dark.webp">
-    <meta property="twitter:image:alt" content="The symbol of the Intropians">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:url" content="{{ page_url }}">
+    <meta name="twitter:title" content="{{ page_title }}">
+    <meta name="twitter:site" content="@intropians">
+    <meta name="twitter:description" content="{{ page_description }}">
+    {% if page_image -%}
+    <meta name="twitter:image" content="{{ page_image }}">
+    {%- endif %}

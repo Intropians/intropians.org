@@ -1,0 +1,7 @@
+{%- if image -%}
+    {%- capture page_image -%}
+    {{ metadata.url }}{{ image }}
+    {%- endcapture -%}
+{%- else -%}
+    {%- assign page_image = false -%}
+{%- endif -%}
