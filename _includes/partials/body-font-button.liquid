@@ -1,0 +1,12 @@
+{%- if font == 'sans-serif' -%}
+    {%- assign ariaLabel = 'Article text will be in a sans serif font' -%}
+{%- else -%}
+    {%- assign ariaLabel = 'Article text will be in a serif font' -%}
+{%- endif -%}
+<button
+    type="button"
+    class="body-font-button body-font-button--{{ font }}"
+    aria-label="{{ariaLabel}}"
+>
+    {{ font }}
+</button>

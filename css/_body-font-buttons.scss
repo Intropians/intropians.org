@@ -1,0 +1,13 @@
+.body-font-buttons {
+    display: flex;
+    margin-top: 0;
+    margin-bottom: 0;
+    .body-font-buttons__title {
+        display: none;
+    }
+    .body-font-buttons__item {
+        margin-left: var(--margin-small);
+        margin-right: var(--margin-small);
+
+    }
+}
