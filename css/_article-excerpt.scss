@@ -1,6 +1,6 @@
 .article-excerpt {
   margin-top: 0;
-  max-width: $max-readable-width;
+  max-width: var(--max-readable-width);
   margin-left: auto;
   margin-right: auto;
 }

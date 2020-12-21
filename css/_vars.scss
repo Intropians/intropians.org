@@ -1,41 +1,46 @@
 // https://coolors.co/170003-55000c-f2f2d9-adb262-69c14c
 
-$colour-mantis: rgb(105,193,76);
-$colour-clementine: rgb(224,142,42);
-$colour-sienna: rgb(183,75,9);
+:root {
+    --max-readable-width: 34rem;
+    --max-content-width: 50rem;
+    --font-sans-serif: "Barlow", "Helvetica Neue", Helvetica, "Arimo", Arial, sans-serif;
+    --font-serif: "Redaction", "Times New Roman", "Tinos", Times, serif;
+    --gutter: 1rem;
+    --large-gutter: 2rem;
+    --margin-small: 0.3rem;
+    --margin: 1rem;
+    --margin-large: 2.5rem;
 
-$colour-brand: rgb(204,14,0);
-$colour-brand-on-dark: rgb(255,50,36);
+    --colour-highlight: rgb(47,116,60);
+    --colour-bg-base: rgb(230,230,230);
+    --colour-fg-base: rgb(25,25,25);
+    --colour-link: rgb(25,25,25);
+    --colour-link-hover: rgb(25,25,25);
+    --colour-link-focus: rgb(25,25,25);
+    --colour-link-visited: rgb(25,25,25);
+    --colour-link-active: rgb(25,25,25);
+}
 
-$colour-secondary: rgb(47,116,60);
-$colour-secondary-on-dark: rgb(77,153,92);
+:root[data-theme="dark"] {
+    --colour-highlight: rgb(77,153,92);
+    --colour-bg-base: rgb(25,25,25);
+    --colour-fg-base: rgb(230,230,230);
+    --colour-link: rgb(230,230,230);
+    --colour-link-hover: rgb(230,230,230);
+    --colour-link-focus: rgb(230,230,230);
+    --colour-link-visited: rgb(230,230,230);
+    --colour-link-active: rgb(230,230,230);
+}
 
-$colour-bg-base: rgb(230,230,230);
-$colour-bg-base-demi: rgba(230,230,230,0.8);
-$colour-fg-base: rgb(25,25,25);
-
-$dark-colour-bg-base: rgb(25,25,25);
-$dark-colour-bg-base-demi: rgba(25,25,25,0.8);
-$dark-colour-fg-base: rgb(230,230,230);
-
-$colour-link: rgb(25,25,25);
-$colour-link-hover: rgb(25,25,25);
-$colour-link-focus: rgb(25,25,25);
-$colour-link-visited: rgb(25,25,25);
-$colour-link-active: rgb(25,25,25);
-
-$dark-colour-link:rgb(230,230,230);
-$dark-colour-link-hover: rgb(230,230,230);
-$dark-colour-link-focus: rgb(230,230,230);
-$dark-colour-link-visited: rgb(230,230,230);
-$dark-colour-link-active: rgb(230,230,230);
-
-$max-readable-width: 34rem;
-$max-content-width: 50rem;
-$font-sans-serif: "Barlow", "Helvetica Neue", Helvetica, "Arimo", Arial, sans-serif;
-$font-serif: "Redaction", "Times New Roman", "Tinos", Times, serif;
-$gutter: 1rem;
-$large-gutter: 2rem;
-$margin-small: 0.3rem;
-$margin: 1rem;
-$margin-large: 2.5rem;
+@media (prefers-color-scheme: dark) {
+    :root:not([data-theme]) {
+        --colour-highlight: rgb(77,153,92);
+        --colour-bg-base: rgb(25,25,25);
+        --colour-fg-base: rgb(230,230,230);
+        --colour-link: rgb(230,230,230);
+        --colour-link-hover: rgb(230,230,230);
+        --colour-link-focus: rgb(230,230,230);
+        --colour-link-visited: rgb(230,230,230);
+        --colour-link-active: rgb(230,230,230);
+    }
+}

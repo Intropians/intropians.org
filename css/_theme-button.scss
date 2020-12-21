@@ -4,7 +4,7 @@
     border-width: 0;
     overflow: visible;
     line-height: inherit;
-    font-family: $font-sans-serif;
+    font-family: var(--font-sans-serif);
     font-size: 0.8rem;
     color: currentColor;
     text-transform: none;
@@ -22,7 +22,7 @@
     }
     &:focus {
         text-decoration: underline;
-        color: $colour-secondary;
+        color: var(--colour-highlight);
         outline: none;
     }
     &::before {
@@ -33,20 +33,6 @@
         height: 2px;
         border-radius: 1px;
         left: calc(50% - 1px);
-    }
-}
-
-:root[data-theme="dark"] {
-    .theme-button:focus {
-        color: $colour-secondary-on-dark;
-    }
-}
-
-@media (prefers-color-scheme: dark) {
-    :root:not([data-theme]) {
-        .theme-button:focus {
-            color: $colour-secondary-on-dark;
-        }
     }
 }
 

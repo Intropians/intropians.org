@@ -6,8 +6,8 @@
         display: none;
     }
     .theme-buttons__item {
-        margin-left: $margin-small;
-        margin-right: $margin-small;
+        margin-left: var(--margin-small);
+        margin-right: var(--margin-small);
 
     }
 }

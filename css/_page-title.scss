@@ -2,8 +2,8 @@
   font-size: 2rem;
   font-weight: 700;
   line-height: 1.2;
-  font-family: $font-sans-serif;
-  max-width: $max-readable-width;
+  font-family: var(--font-sans-serif);
+  max-width: var(--max-readable-width);
   margin-top: 0;
-  margin-bottom: $margin;
+  margin-bottom: var(--margin);
 }

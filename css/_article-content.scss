@@ -1,5 +1,5 @@
 .article-content {
-  margin-bottom: $margin-large;
+  margin-bottom: var(--margin-large);
 
   a {
     text-decoration: underline;
@@ -10,11 +10,11 @@
   }
  
   h1, h2, h3, h4, h5, h6 {
-    font-family: $font-sans-serif;
+    font-family: var(--font-sans-serif);
     font-weight: 700;
-    max-width: $max-readable-width;
+    max-width: var(--max-readable-width);
     margin-top: 0;
-    margin-bottom: $margin;
+    margin-bottom: var(--margin);
     margin-left: auto;
     margin-right: auto;
   }
@@ -38,44 +38,44 @@
     font-size: 0.6rem;
   }
   p {
-    max-width: $max-readable-width;
+    max-width: var(--max-readable-width);
     margin-top: 0;
-    margin-bottom: $margin;
+    margin-bottom: var(--margin);
     margin-left: auto;
     margin-right: auto;
   }
 
   ul, ol {
-    max-width: $max-readable-width;
-    padding-left: $margin;
-    margin-bottom: $margin;
+    max-width: var(--max-readable-width);
+    padding-left: var(--margin);
+    margin-bottom: var(--margin);
     margin-left: auto;
     margin-right: auto;
   }
 
   li {
-    margin-bottom: ($margin / 2);
+    margin-bottom: var(--margin-small);
   }
 
   hr {
-    max-width: $max-readable-width;
+    max-width: var(--max-readable-width);
     border: 0;
     height: 1px;
     background-color: currentColor;
     margin-left: auto;
     margin-right: auto;
-    margin-top: $margin-large;
-    margin-bottom: $margin-large;
+    margin-top: var(--margin-large);
+    margin-bottom: var(--margin-large);
   }
 
   blockquote {
-    max-width: $max-readable-width;
-    padding-left: $margin;
+    max-width: var(--max-readable-width);
+    padding-left: var(--margin);
     padding-right: 0;
     margin-left: auto;
     margin-right: auto;
-    margin-top: $margin-large;
-    margin-bottom: $margin-large;
+    margin-top: var(--margin-large);
+    margin-bottom: var(--margin-large);
     border-left: 2px solid currentColor;
     font-style: italic;
     & > p:last-of-type {
@@ -85,8 +85,8 @@
 
   cite {
     display: block;
-    font-family: $font-sans-serif;
-    padding-top: $margin;
+    font-family: var(--font-sans-serif);
+    padding-top: var(--margin);
     font-style: normal;
     font-size: 0.8rem;
   }
@@ -99,7 +99,7 @@
   }
   
   th {
-    font-family: $font-sans-serif;
+    font-family: var(--font-sans-serif);
     font-weight: 700;
     border-width: 1px;
     border-style: solid;
@@ -118,7 +118,7 @@
   }
   
   td {
-    font-family: $font-sans-serif;
+    font-family: var(--font-sans-serif);
     border-width: 1px;
     border-style: solid;
     border-color: currentColor;
@@ -128,12 +128,12 @@
   }
   
   caption {
-    font-family: $font-sans-serif;
+    font-family: var(--font-sans-serif);
     padding-top: 1em;
     caption-side: bottom;
     text-align: left;
     padding-bottom: 1rem;
-    max-width: $max-readable-width;
+    max-width: var(--max-readable-width);
     margin-left: auto;
     margin-right: auto;
   }
@@ -142,19 +142,19 @@
     margin-left: auto;
     margin-right: auto;
     overflow: auto;
-    padding-top: $margin;
-    margin-bottom: $margin-large;
-    max-width: $max-content-width;
+    padding-top: var(--margin);
+    margin-bottom: var(--margin-large);
+    max-width: var(--max-content-width);
     &.article-image-constrained {
-      max-width: $max-readable-width;
+      max-width: var(--max-readable-width);
     }
   }
   
   figcaption {
-    font-family: $font-sans-serif;
-    padding-top: $margin;
+    font-family: var(--font-sans-serif);
+    padding-top: var(--margin);
     font-size: 0.8rem;
-    max-width: $max-readable-width;
+    max-width: var(--max-readable-width);
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -169,7 +169,7 @@
   }
 
   sup[id] {
-    font-family: $font-sans-serif;
+    font-family: var(--font-sans-serif);
     font-size: 0.8rem;
     margin-left: 0.1rem;
   }
@@ -181,7 +181,7 @@
   .article-content {
 
     ul, ol {
-      padding-left: $margin-large;
+      padding-left: var(--margin-large);
     }
 
   }
