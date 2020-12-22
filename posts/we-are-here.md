@@ -30,7 +30,7 @@ It has been well documented that the history of digital currency (pre-Bitcoin) w
 
 On a similar note, Ethereum co-founder, Vitalik Buterin, has donated a substantial amount of funds [to cryonic-oriented projects](https://breakermag.com/the-bitcoiners-who-want-to-defeat-death/). On Twitter, Buterin has been known to mention the fable of the [Dragon Tyrant](https://www.nickbostrom.com/fable/dragon.html#:~:text=In%20the%20fable%2C%20people's%20expectations,of%20human%20suffering%20and%20death.) by [Nick Bostrom](https://en.wikipedia.org/wiki/Nick_Bostrom) to promote life-extension efforts.
 
-<figure class="article-image-constrained">
+<figure>
   <img src="/images/vitalik-buterin-twitter.jpg" alt="Vitalik Buterin's tweet about the Life Extension Advocacy Foundation" width="450" height="600">
   <figcaption><a href="https://twitter.com/VitalikButerin/status/1314074809140043778">Vitalik Buterin's tweet</a> about the Life Extension Advocacy Foundation</figcaption>
 </figure>

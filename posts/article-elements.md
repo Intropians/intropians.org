@@ -111,7 +111,7 @@ Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus
 Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Maecenas faucibus mollis interdum. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Aenean lacinia bibendum nulla sed consectetur. Nullam quis risus eget urna mollis ornare vel eu leo. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
 
 <figure>
-  <img src="https://www.reactiongifs.com/r/2013/01/birthdaycandleblower.gif" alt="Candle kid">
+  <img src="/images/candle-kid.gif" alt="Sudden Candle Kid" width="500" height="333">
   <figcaption>The angry candle kid</figcaption>
 </figure>
 
