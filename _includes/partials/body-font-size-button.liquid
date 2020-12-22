@@ -1,0 +1,14 @@
+{%- if fontSize == 'large' -%}
+    {%- assign ariaLabel = 'Article text will be 2x larger' -%}
+{%- else if fontSize == 'medium' -%}
+    {%- assign ariaLabel = 'Article text will be 1.5x larger' -%}
+{%- else -%}
+    {%- assign ariaLabel = 'Article text will be the default size' -%}
+{%- endif -%}
+<button
+    type="button"
+    class="body-font-size-button body-font-size-button--{{ fontSize }}"
+    aria-label="{{ariaLabel}}"
+>
+    {{ fontSize }}
+</button>

@@ -1,4 +1,4 @@
-.body-font-button {
+.body-font-family-button {
     appearance: none;
     -webkit-appearance: none;
     border-width: 0;
@@ -35,14 +35,14 @@
         left: calc(50% - 1px);
     }
 }
-[data-body-font-preference="serif"] {
-    .body-font-button--serif::before {
+[data-body-font-family-preference="serif"] {
+    .body-font-family-button--serif::before {
         background-color: currentColor;
     }
 }
 
-[data-body-font-preference="sans-serif"] {
-    .body-font-button--sans-serif::before {
+[data-body-font-family-preference="sans-serif"] {
+    .body-font-family-button--sans-serif::before {
         background-color: currentColor;
     }
 }

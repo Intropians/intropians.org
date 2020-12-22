@@ -1,7 +1,7 @@
 .article-content {
-  font-family: var(--body-font);
+  font-family: var(--body-font-family);
   margin-bottom: var(--margin-large);
-  font-size: 1rem;
+  font-size: var(--body-font-size);
 
   a {
     text-decoration: underline;

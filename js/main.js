@@ -49,6 +49,10 @@ function setTheme() {
 
 setTheme();
 
+// ====================
+// text alignment
+// ====================
+
 const TEXT_ALIGNMENT_PREFERENCE_DATA_ATTRIBUTE_LABEL = 'data-text-alignment-preference';
 const TEXT_ALIGNMENT_JUSTIFY_LABEL = 'justify';
 const TEXT_ALIGNMENT_LEFT_LABEL = 'left';
@@ -76,29 +80,65 @@ function setTextAlignment() {
 
 setTextAlignment();
 
-const BODY_FONT_PREFERENCE_DATA_ATTRIBUTE_LABEL = 'data-body-font-preference';
-const BODY_FONT_SANS_SERIF_LABEL = 'sans-serif';
-const BODY_FONT_SERIF_LABEL = 'serif';
+// ====================
+// body font family
+// ====================
 
-const bodyFontButtons = document.querySelectorAll('.body-font-button');
+const BODY_FONT_FAMILY_PREFERENCE_DATA_ATTRIBUTE_LABEL = 'data-body-font-family-preference';
+const BODY_FONT_FAMILY_SANS_SERIF_LABEL = 'sans-serif';
+const BODY_FONT_FAMILY_SERIF_LABEL = 'serif';
 
-bodyFontButtons.forEach(bodyFontButton => {
-    bodyFontButton.addEventListener('click', event => {
-        setBodyFontPreference(bodyFontButton.textContent.trim());
+const bodyFontFamilyButtons = document.querySelectorAll('.body-font-family-button');
+
+bodyFontFamilyButtons.forEach(bodyFontFamilyButton => {
+    bodyFontFamilyButton.addEventListener('click', event => {
+        setBodyFontFamilyPreference(bodyFontFamilyButton.textContent.trim());
     });
 });
 
-function getBodyFontPreference() {
-    return localStorage.getItem(BODY_FONT_PREFERENCE_DATA_ATTRIBUTE_LABEL) || BODY_FONT_SERIF_LABEL;
+function getBodyFontFamilyPreference() {
+    return localStorage.getItem(BODY_FONT_FAMILY_PREFERENCE_DATA_ATTRIBUTE_LABEL) || BODY_FONT_FAMILY_SERIF_LABEL;
 }
 
-function setBodyFontPreference(bodyFont) {
-    localStorage.setItem(BODY_FONT_PREFERENCE_DATA_ATTRIBUTE_LABEL, bodyFont); 
-    setBodyFont();
+function setBodyFontFamilyPreference(bodyFontFamily) {
+    localStorage.setItem(BODY_FONT_FAMILY_PREFERENCE_DATA_ATTRIBUTE_LABEL, bodyFontFamily); 
+    setBodyFontFamily();
 }
 
-function setBodyFont() {
-    rootNode.setAttribute(BODY_FONT_PREFERENCE_DATA_ATTRIBUTE_LABEL, getBodyFontPreference());
+function setBodyFontFamily() {
+    rootNode.setAttribute(BODY_FONT_FAMILY_PREFERENCE_DATA_ATTRIBUTE_LABEL, getBodyFontFamilyPreference());
 }
 
-setBodyFont();
+setBodyFontFamily();
+
+// ====================
+// body font size
+// ====================
+
+const BODY_FONT_SIZE_PREFERENCE_DATA_ATTRIBUTE_LABEL = 'data-body-font-size-preference';
+const BODY_FONT_SIZE_DEFAULT_LABEL = 'normal';
+const BODY_FONT_SIZE_MEDIUM_LABEL = 'medium';
+const BODY_FONT_SIZE_LARGE_LABEL = 'large';
+
+const bodyFontSizeButtons = document.querySelectorAll('.body-font-size-button');
+
+bodyFontSizeButtons.forEach(bodyFontSizeButton => {
+    bodyFontSizeButton.addEventListener('click', event => {
+        setBodyFontSizePreference(bodyFontSizeButton.textContent.trim());
+    });
+});
+
+function getBodyFontSizePreference() {
+    return localStorage.getItem(BODY_FONT_SIZE_PREFERENCE_DATA_ATTRIBUTE_LABEL) || BODY_FONT_SIZE_DEFAULT_LABEL;
+}
+
+function setBodyFontSizePreference(bodyFontSize) {
+    localStorage.setItem(BODY_FONT_SIZE_PREFERENCE_DATA_ATTRIBUTE_LABEL, bodyFontSize); 
+    setBodyFontSize();
+}
+
+function setBodyFontSize() {
+    rootNode.setAttribute(BODY_FONT_SIZE_PREFERENCE_DATA_ATTRIBUTE_LABEL, getBodyFontSizePreference());
+}
+
+setBodyFontSize();

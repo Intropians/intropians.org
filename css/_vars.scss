@@ -22,7 +22,8 @@
 
     --hyphens: none;
     --text-align: left;
-    --body-font: var(--font-serif);
+    --body-font-family: var(--font-serif);
+    --body-font-size: 1rem;
 }
 
 :root[data-theme="dark"] {
@@ -41,8 +42,20 @@
     --text-align: justify;
 }
 
-:root[data-body-font-preference="sans-serif"] {
-    --body-font: var(--font-sans-serif);
+:root[data-body-font-family-preference="sans-serif"] {
+    --body-font-family: var(--font-sans-serif);
+}
+
+:root[data-body-font-size-preference="medium"] {
+    --body-font-size: 1.5rem;
+    --max-readable-width: calc(34rem * 1.5);
+    --max-content-width: calc(50rem * 1.5);
+}
+
+:root[data-body-font-size-preference="large"] {
+    --body-font-size: 2rem;
+    --max-readable-width: calc(34rem * 2);
+    --max-content-width: calc(50rem * 2);
 }
 
 @media (prefers-color-scheme: dark) {
