@@ -115,30 +115,40 @@ setBodyFontFamily();
 // body font size
 // ====================
 
-const BODY_FONT_SIZE_PREFERENCE_DATA_ATTRIBUTE_LABEL = 'data-body-font-size-preference';
-const BODY_FONT_SIZE_DEFAULT_LABEL = 'normal';
-const BODY_FONT_SIZE_MEDIUM_LABEL = 'medium';
-const BODY_FONT_SIZE_LARGE_LABEL = 'large';
+const bodyFontSize = (function() {
 
-const bodyFontSizeButtons = document.querySelectorAll('.body-font-size-button');
+    const DATA_ATTRIBUTE_LABEL = 'data-body-font-size-preference';
+    const DEFAULT_LABEL = 'normal';
 
-bodyFontSizeButtons.forEach(bodyFontSizeButton => {
-    bodyFontSizeButton.addEventListener('click', event => {
-        setBodyFontSizePreference(bodyFontSizeButton.textContent.trim());
-    });
-});
+    function setClickEvent(callback) {
+        const bodyFontSizeButtons = document.querySelectorAll('.body-font-size-button');
 
-function getBodyFontSizePreference() {
-    return localStorage.getItem(BODY_FONT_SIZE_PREFERENCE_DATA_ATTRIBUTE_LABEL) || BODY_FONT_SIZE_DEFAULT_LABEL;
-}
+        bodyFontSizeButtons.forEach(bodyFontSizeButton => {
+            bodyFontSizeButton.addEventListener('click', event => {
+                callback(bodyFontSizeButton.textContent.trim());
+            });
+        });
+    }
 
-function setBodyFontSizePreference(bodyFontSize) {
-    localStorage.setItem(BODY_FONT_SIZE_PREFERENCE_DATA_ATTRIBUTE_LABEL, bodyFontSize); 
-    setBodyFontSize();
-}
+    function getPreference() {
+        return localStorage.getItem(DATA_ATTRIBUTE_LABEL) || DEFAULT_LABEL;
+    }
 
-function setBodyFontSize() {
-    rootNode.setAttribute(BODY_FONT_SIZE_PREFERENCE_DATA_ATTRIBUTE_LABEL, getBodyFontSizePreference());
-}
+    function setBodyFontSize(label) {
+        localStorage.setItem(DATA_ATTRIBUTE_LABEL, label); 
+        rootNode.setAttribute(DATA_ATTRIBUTE_LABEL, label);
+    }
 
-setBodyFontSize();
+    function init() {
+        const preference = getPreference();
+        setBodyFontSize(preference);
+        setClickEvent(setBodyFontSize);
+    }
+
+    return {
+        init: init
+    }
+
+})();
+
+bodyFontSize.init();
