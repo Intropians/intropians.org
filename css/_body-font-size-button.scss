@@ -36,7 +36,7 @@
     }
 }
 
-[data-body-font-size-preference="normal"] {
+:root:not([data-body-font-size-preference]) {
     .body-font-size-button--normal::before {
         background-color: currentColor;
     }

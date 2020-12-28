@@ -35,7 +35,8 @@
         left: calc(50% - 1px);
     }
 }
-[data-text-alignment-preference="left"] {
+
+:root:not([data-text-alignment-preference]) {
     .text-alignment-button--left::before {
         background-color: currentColor;
     }

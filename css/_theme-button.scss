@@ -36,7 +36,7 @@
     }
 }
 
-[data-theme-preference="auto"] {
+:root:not([data-theme-preference]) {
     .theme-button--auto::before {
         background-color: currentColor;
     }

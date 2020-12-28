@@ -35,7 +35,8 @@
         left: calc(50% - 1px);
     }
 }
-[data-body-font-family-preference="serif"] {
+
+:root:not([data-body-font-family-preference]) {
     .body-font-family-button--serif::before {
         background-color: currentColor;
     }
