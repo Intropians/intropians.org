@@ -1,33 +1,43 @@
 const personalCustomisation = (function() {
 
-    function setClickEvent(callback, dataAttribute, defaultLabel, buttonClass) {
+    function setClickEvent(callback, dataKey, buttonClass, defaultVal) {
         const buttons = document.querySelectorAll(buttonClass);
 
         buttons.forEach(button => {
             button.addEventListener('click', event => {
-                callback(button.textContent.trim(), dataAttribute, defaultLabel);
+                callback(button.textContent.trim(), dataKey, defaultVal);
             });
         });
     }
 
-    function getPreference(dataAttribute, defaultLabel) {
-        return localStorage.getItem(dataAttribute) || defaultLabel;
+    function getButtonClass(name) {
+        return `.${name}-button`;
+    };
+    
+    function getDataKey(name) {
+        return `data-${name}-preference`;
+    };
+
+    function getPreference(dataKey, defaultVal) {
+        return localStorage.getItem(dataKey) || defaultVal;
     }
 
-    function setPreference(label, dataAttribute, defaultLabel) {
-        if (label == defaultLabel) {
-            localStorage.removeItem(dataAttribute);
-            document.documentElement.removeAttribute(dataAttribute);
+    function setPreference(label, dataKey, defaultVal) {
+        if (label == defaultVal) {
+            localStorage.removeItem(dataKey);
+            document.documentElement.removeAttribute(dataKey);
         } else {
-            localStorage.setItem(dataAttribute, label); 
-            document.documentElement.setAttribute(dataAttribute, label);
+            localStorage.setItem(dataKey, label); 
+            document.documentElement.setAttribute(dataKey, label);
         }
     }
 
-    function init(dataAttribute, defaultLabel, buttonClass) {
-        const preference = getPreference(dataAttribute, defaultLabel);
-        setPreference(preference, dataAttribute, defaultLabel);
-        setClickEvent(setPreference, dataAttribute, defaultLabel, buttonClass);
+    function init(name, defaultVal) {
+        const dataKey = getDataKey(name);
+        const buttonClass = getButtonClass(name);
+        const preference = getPreference(dataKey, defaultVal);
+        setPreference(preference, dataKey, defaultVal);
+        setClickEvent(setPreference, dataKey, buttonClass, defaultVal);
     }
 
     return {

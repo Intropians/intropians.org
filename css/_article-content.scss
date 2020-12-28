@@ -4,8 +4,11 @@
   font-size: var(--body-font-size);
   line-height: var(--body-line-height);
 
-  a {
-    text-decoration: underline;
+  a:link {
+    text-decoration: var(--link-decoration);
+  }
+  a:hover {
+    text-decoration: var(--link-decoration-hover);
   }
 
   & > *:last-child {

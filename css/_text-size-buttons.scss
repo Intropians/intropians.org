@@ -1,13 +1,12 @@
-.body-font-family-buttons {
+.text-size-buttons {
     display: flex;
     margin-top: 0;
     margin-bottom: 0;
-    .body-font-family-buttons__title {
+    .text-size-buttons__title {
         display: none;
     }
-    .body-font-family-buttons__item {
+    .text-size-buttons__item {
         margin-left: var(--margin-small);
         margin-right: var(--margin-small);
-
     }
 }

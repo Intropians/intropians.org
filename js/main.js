@@ -2,11 +2,10 @@ import personalCustomisation from './modules/personalCustomisation.js';
 import personalCustomisers from './settings/personalCustomisers.js';
 
 personalCustomisers.map(
-    ({ dataAttribute, defaultLabel, buttonClass }) => {
+    ({ name, defaultVal }) => {
         personalCustomisation.init(
-            dataAttribute,
-            defaultLabel,
-            buttonClass
+            name,
+            defaultVal
         );
     }
 );

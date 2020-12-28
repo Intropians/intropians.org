@@ -1,23 +1,27 @@
 const personalCustomisers = [
     {
-        dataAttribute: 'data-theme-preference',
-        defaultLabel: 'auto',
-        buttonClass: '.theme-button'
+        name: 'theme',
+        defaultVal: 'auto'
     },
     {
-        dataAttribute: 'data-text-alignment-preference',
-        defaultLabel: 'left',
-        buttonClass: '.text-alignment-button'
+        name: 'link-visibility',
+        defaultVal: 'visible'
     },
     {
-        dataAttribute: 'data-body-font-family-preference',
-        defaultLabel: 'serif',
-        buttonClass: '.body-font-family-button'
+        name: 'text-alignment',
+        defaultVal: 'left'
     },
     {
-        dataAttribute: 'data-body-font-size-preference',
-        defaultLabel: 'normal',
-        buttonClass: '.body-font-size-button'
+        name: 'font-family',
+        defaultVal: 'serif'
+    },
+    {
+        name: 'text-size',
+        defaultVal: 'normal'
+    },
+    {
+        name: 'text-line-height',
+        defaultVal: 'normal'
     }
 ];
 

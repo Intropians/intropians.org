@@ -1,4 +1,4 @@
-.body-font-family-button {
+.text-line-height-button {
     appearance: none;
     -webkit-appearance: none;
     border-width: 0;
@@ -36,14 +36,20 @@
     }
 }
 
-:root:not([data-body-font-family-preference]) {
-    .body-font-family-button--serif::before {
+:root:not([data-text-line-height-preference]) {
+    .text-line-height-button--normal::before {
         background-color: currentColor;
     }
 }
 
-[data-body-font-family-preference="sans-serif"] {
-    .body-font-family-button--sans-serif::before {
+[data-text-line-height-preference="medium"] {
+    .text-line-height-button--medium::before {
+        background-color: currentColor;
+    }
+}
+
+[data-text-line-height-preference="large"] {
+    .text-line-height-button--large::before {
         background-color: currentColor;
     }
 }

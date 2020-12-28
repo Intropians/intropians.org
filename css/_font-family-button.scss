@@ -1,4 +1,4 @@
-.body-font-size-button {
+.font-family-button {
     appearance: none;
     -webkit-appearance: none;
     border-width: 0;
@@ -36,20 +36,14 @@
     }
 }
 
-:root:not([data-body-font-size-preference]) {
-    .body-font-size-button--normal::before {
+:root:not([data-font-family-preference]) {
+    .font-family-button--serif::before {
         background-color: currentColor;
     }
 }
 
-[data-body-font-size-preference="medium"] {
-    .body-font-size-button--medium::before {
-        background-color: currentColor;
-    }
-}
-
-[data-body-font-size-preference="large"] {
-    .body-font-size-button--large::before {
+[data-font-family-preference="sans-serif"] {
+    .font-family-button--sans-serif::before {
         background-color: currentColor;
     }
 }
