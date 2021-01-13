@@ -1,11 +1,37 @@
 ---
-title: Finally, we are here
+title: Article 001
 excerpt: We are the Intropians, a critique of the extropian movement.
 author: Egregore
 date: 2020-12-04
 image: /images/finally-we-are-here.jpg
 eleventyExcludeFromCollections: true
 ---
+
+The year is 2021 (CE, Earth, civilization type III-minus). There is a global pandemic, the specter of death haunting every aspect of life on earth, even non-human life forms feel the difference as they have been coming out of the forests, streets being empty the world over, there is a global confinement for humans in every city and town. All the powers of the old have entered into a holy alliance to exorcise this specter: working together to limit the viral exposure to the huddled masses, working together to find a cure, a vaccine.
+
+Death, decay and vaccines are on everyone's mind. No longer are we sure what to trust, who to turn to, which media sources to depend on for the stats. Humans don't get to see each other in person any more. Still no aliens. 
+
+But what we do have are dreams of someday making death a thing of the past, our consciousness jumping body to body, or getting uploaded to the digital cloud, of finally winning against the force of entropy that eventually erodes everything away. Such are the images of the future that the extropian social movement would claim under the broader imaginary of transhumanism.
+
+## Finally, we are here
+We are the Intropians, a critique of and commentary on the extropian movement bound up in its many tangents of thought that it evokes. 
+
+Extropianism, as a social movement, is premised on the continual expansion of the human lifespan and the human potential. As an ideology, it seeks its legitimacy in the rapid advancements in science and technology of the last few decades, leveraging which, we will someday gain immortality. At a minimum, it promises to open up lasting improvements in our immediate physical reality, such as the slowing down of the human aging process. This movement has been materialized around cryogenics and life-extension initiatives, with the expansion of our quality of life by way of integrating the human with the technological artifacts in the form of of implants and prosthetics.  
+
+Extropy — from which comes the term, extropianism — was coined by Tom Bell and defined by Max More in 1988 as “the extent of a living or organizational system’s intelligence, functional order, vitality, energy, life, experience, and capacity to drive for improvement and growth” In the Principles of Extropy by Max More, there is emphasis placed on rational thinking and practical optimism. Extropians share an optimistic view of the future, expecting advances in computational power, life extension, nanotechnology and so on. Many extropians believe in a future where thanks to advances in biomedical technology, brain and bodies will be preserved by means of cryonics. 
+
+The term, extropian was brought to life as an antonym of the scientific concept of entropy. This was in the sense of entropy being responsible for and the scientific cause behind the always-forward-moving arrow of time: going from past to the present to reach the future with no way to turn back time, while acting as the invisible hand that erodes things over time, that makes it easier to break than to make, that slows down lifeforms to its eventual deaths. Where this is entropy, there is the inevitable decay and death of all life forms, as per the second law of thermodynamics. Thus, extropy, as its cure, came with the promise of no-death by no-decay.
+
+> [...] the second law [...] is the irreversible process of dissipation of energy in the world. What does it mean to say, ‘The world is running out of time’? Simply this: we experience the passage of time by the succession of one event after another. And every time an event occurs anywhere in this world energy is expended and the overall entropy is increased. To say the world is running out of time then, to say the world is running out of usable energy. In the words of Sir Arthur Eddington, ‘Entropy is time's arrow.’
+> <cite>Rifkin, J. (1980), Entropy: A New World View</cite>
+
+Our new term, "intropy" is derived from the Proto-Indo-European, or PIE, roots of "in" and "tropē" where the latter means "a turning, a transformation". So intrope could point toward the semantic cloud of such ideas as: turning inwards, an internal turn (an in-turn), a turn only for the insiders, a not so visible from the outside turn, turning within, an immanent turn, turning back its connotations to mean entropy (as it has the same PIE roots en+tropy via the Old French, "en" meaning “in”) all over again but only after having lost its entropic innocence at the hands of (having gone though the phase of) extropy. 
+
+We bring forth a philosophy of, and a provocation for inquiring into death, decay, and the digital frontiers that aim to address these concerns which have made us the human beings that we have become since the dawn of civilization. We have a particular focus and a peculiar fascination in regards to the world of technology and tech-optimists, of which, crypto has been chosen to be a prime candidate for our analysis. The reasons will be clear in the next section.
+
+As intropians, we ought to resist the temptation of falling for the game of oppositional camps as we position ourselves in relationship to extropianism. Just as post-modernists are not opposed to modernism, but what came as a response to it having had and still living, yet remaining unfulfilled in doing so, in the multiplicity that is modernism, so does intropianism feel more like post-extropianism (under the shades of post-transhumanism) rather than anti or counter or non extropianism.
+
+---------------------
 
 We are the Intropians, a critique of the extropian movement. 
 
