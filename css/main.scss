@@ -16,10 +16,13 @@
 @import 'global-header';
 @import 'global-footer';
 
+// @import 'global-taskbar';
+
 @import 'global-logo';
 @import 'global-twitter';
 
 @import 'article-note';
+@import 'article-header';
 @import 'article-footer';
 @import 'article-title';
 @import 'article-excerpt';
@@ -36,3 +39,18 @@
 
 @import 'theme-button';
 @import 'theme-buttons';
+
+// @import 'link-visibility-button';
+// @import 'link-visibility-buttons';
+
+// @import 'text-alignment-button';
+// @import 'text-alignment-buttons';
+
+// @import 'text-line-height-button';
+// @import 'text-line-height-buttons';
+
+// @import 'text-size-button';
+// @import 'text-size-buttons';
+
+// @import 'font-family-button';
+// @import 'font-family-buttons';

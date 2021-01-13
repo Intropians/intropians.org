@@ -1,8 +1,8 @@
 .global-footer {
-  max-width: $max-readable-width;
+  max-width: var(--max-readable-width);
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: $margin;
+  margin-bottom: var(--margin);
   display: flex;
   align-items: center;
   justify-content: flex-end;

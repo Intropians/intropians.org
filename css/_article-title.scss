@@ -1,11 +1,11 @@
 .article-title {
-  font-size: 1.6rem;
+  font-size: 1.6em;
   font-weight: 700;
   line-height: 1.2;
-  font-family: $font-sans-serif;
+  font-family: var(--font-sans-serif);
   margin-top: 0;
-  margin-bottom: $margin;
-  max-width: $max-readable-width;
+  margin-bottom: var(--margin);
+  max-width: var(--max-readable-width);
   margin-left: auto;
   margin-right: auto;
 }

@@ -1,7 +1,7 @@
 .article-note {
   font-style: italic;
-  max-width: $max-readable-width;
-  margin-bottom: $margin-small;
+  max-width: var(--max-readable-width);
+  margin-bottom: var(--margin-small);
   font-size: 0.8rem;
   margin-left: auto;
   margin-right: auto;

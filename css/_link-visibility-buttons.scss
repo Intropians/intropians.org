@@ -1,0 +1,13 @@
+.link-visibility-buttons {
+    display: flex;
+    margin-top: 0;
+    margin-bottom: 0;
+    .link-visibility-buttons__title {
+        display: none;
+    }
+    .link-visibility-buttons__item {
+        margin-left: var(--margin-small);
+        margin-right: var(--margin-small);
+
+    }
+}

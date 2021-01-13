@@ -1,12 +1,3 @@
-{%- if post -%}
-  {%- assign articleDate = post.date -%}
-  {%- assign articleTitle = post.data.title -%}
-  {%- assign articleLink = post.url -%}
-{%- else -%}
-  {%- assign articleDate = page.date -%}
-  {%- assign articleTitle = title -%}
-  {%- assign articleLink = false -%}
-{%- endif -%}
 <header class="article-header">
-  {% include 'partials/article-title' title: articleTitle, link: articleLink %}
+  {% include 'partials/article-title' title, link %}
 </header>

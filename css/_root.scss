@@ -1,31 +1,12 @@
 :root {
-    font-family: $font-serif;
+    font-family: var(--font-serif);
     font-weight: 400;
     font-size: 20px;
-    background-color: $colour-bg-base;
-    color: $colour-fg-base;
+    background-color: var(--colour-bg-base);
+    color: var(--colour-fg-base);
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     line-height: 1.6;
     transition: background-color 200ms linear, color 200ms linear;
-}
-
-:root[data-theme="dark"] {
-    background-color: $dark-colour-bg-base;
-    color: $dark-colour-fg-base;
-}
-
-@media (prefers-color-scheme: dark) {
-    :root:not([data-theme]) {
-        background-color: $dark-colour-bg-base;
-        color: $dark-colour-fg-base;
-    }
-}
-
-
-@media (min-width: 400px) {
-    :root {
-        font-size: 18px;
-    }
 }

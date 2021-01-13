@@ -3,7 +3,7 @@ title: An article with all the elements
 excerpt: This is a sample article which contains all of the content element types so we can see how they all look.
 author: Ann Brody, Anuj Das Gupta, and Stephen Farrugia
 date: 2020-11-18
-eleventyExcludeFromCollections: true
+eleventyExcludeFromCollections: false
 ---
 
 A paragraph (from the Greek paragraphos, “to write beside” or “written beside”) is a self-contained unit of a discourse in <a href="#!">writing dealing with a particular</a> point or idea. A paragraph consists of one or more sentences. Though not required by the syntax of any language, paragraphs are usually an expected part of formal writing, used to organize longer prose.
@@ -111,7 +111,7 @@ Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus
 Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Maecenas faucibus mollis interdum. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Aenean lacinia bibendum nulla sed consectetur. Nullam quis risus eget urna mollis ornare vel eu leo. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
 
 <figure>
-  <img src="https://www.reactiongifs.com/r/2013/01/birthdaycandleblower.gif" alt="Candle kid">
+  <img src="/images/candle-kid.gif" alt="Sudden Candle Kid" width="500" height="333">
   <figcaption>The angry candle kid</figcaption>
 </figure>
 

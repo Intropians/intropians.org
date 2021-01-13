@@ -6,6 +6,13 @@ date: 2020-09-15
 eleventyExcludeFromCollections: true
 ---
 
+The year is 2021 CE, Earth, civilization type III-minus. There is a global pandemic, the specter of death haunting every aspect of life on earth, even non-human life forms feel the difference as they have been coming out of the forests, streets being empty the world over, there is a global confinement for humans in every city and town. All the powers of the old have entered into a holy alliance to exorcise this specter: working together to limit the viral exposure to the huddled masses, working together to find a cure, a vaccine.
+
+Death, decay and vaccines are on everyone's mind. No longer are we sure what to trust, who to turn to, which media sources to depend on for the stats. Humans don't get to see each other in person any more. Still no aliens. 
+
+But what we do have are dreams of someday making death a thing of the past, our consciousness jumping body to body, or getting uploaded to the digital cloud, of finally winning against the force of entropy that eventually erodes everything away. Such are the images of the future that the extropian social movement would claim under the broader imaginary of transhumanism. 
+
+
 # Introduction
 
 It has been well documented that the history of digital cash (pre-Bitcoin) was influenced by the ideas of the extropians. Extropianism, deriving from the word, ‘extropy”, is a philosophical branch that is premised on the continual expansion of the human condition. A core belief that underlines extropianism is that advancements in science and technology will one day let people live for an invariable amount of time. This for example has been seen in certain extropian commitments like: the freezing of human bodies under the anticipation that they will be resurrected in the future, uploading consciousness into a computer cloud, etc. 
