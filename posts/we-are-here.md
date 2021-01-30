@@ -3,7 +3,7 @@ title: Article 001
 excerpt: We are the Intropians, a critique of the extropian movement.
 author: Egregore
 date: 2020-12-04
-image: /images/finally-we-are-here.jpg
+image: /images/article-001.jpg
 eleventyExcludeFromCollections: true
 ---
 

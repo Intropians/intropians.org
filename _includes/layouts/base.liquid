@@ -6,6 +6,7 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <title>{{ page_title }}</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     {%- if eleventyExcludeFromCollections -%}
@@ -14,7 +15,9 @@
     <meta name="title" content="{{ page_title }}">
     <meta name="description" content="{{ page_description }}">
     {% include 'partials/meta-twitter-summary-card' %}
-    <title>{{ page_title }}</title>
+    {% include 'partials/meta-open-graph' %}
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
     <link rel="alternate" href="{{ metadata.feed.path | url }}" type="application/atom+xml" title="{{ metadata.title }}">
     <link rel="alternate" href="{{ metadata.jsonfeed.path | url }}" type="application/json" title="{{ metadata.title }}">
     <link rel="preload" href="/fonts/Barlow-Regular.woff2" as="font" type="font/woff2" crossorigin> 

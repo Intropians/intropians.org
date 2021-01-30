@@ -18,7 +18,8 @@ module.exports = eleventyConfig => {
   eleventyConfig.setTemplateFormats([
     "md",
     "html",
-    "njk"
+    "njk",
+    "ico"
   ]);
   eleventyConfig.addPassthroughCopy("images");
   eleventyConfig.addPassthroughCopy("fonts");
