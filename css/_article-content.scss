@@ -20,6 +20,7 @@
     font-weight: 700;
     max-width: var(--max-readable-width);
     margin-top: 0;
+    padding-top: var(--margin);
     margin-bottom: var(--margin);
     margin-left: auto;
     margin-right: auto;
@@ -50,7 +51,6 @@
     margin-left: auto;
     margin-right: auto;
     text-align: var(--text-align);
-    hyphens: var(--hyphens);
   }
 
   ul, ol {
