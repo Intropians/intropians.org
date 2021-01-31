@@ -2,9 +2,7 @@
 layout: layouts/base.liquid
 ---
 <article class="article">
-  <header class="article-header">
   {% include 'partials/article-header' title, with_subtitle: true %}
-  </header>
   {% if note -%}
     {% include 'partials/article-note' %}
   {%- endif %}
