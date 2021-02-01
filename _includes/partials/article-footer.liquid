@@ -1,6 +1,5 @@
 <footer class="article-footer">
   {% if author -%}
-    {% include 'partials/article-author' %}
+    {% include 'partials/article-author' author %}
   {%- endif %}
-  {% include 'partials/article-date' date: articleDate %}
 </footer>

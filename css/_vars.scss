@@ -16,7 +16,7 @@
     --colour-fg-base: rgb(25,25,25);
     --colour-link: rgb(25,25,25);
     --colour-link-hover: rgb(25,25,25);
-    --colour-link-focus: rgb(25,25,25);
+    --colour-link-focus: var(--colour-highlight);
     --colour-link-visited: rgb(25,25,25);
     --colour-link-active: rgb(25,25,25);
 
@@ -35,7 +35,7 @@
     --colour-fg-base: rgb(230,230,230);
     --colour-link: rgb(230,230,230);
     --colour-link-hover: rgb(230,230,230);
-    --colour-link-focus: rgb(230,230,230);
+    --colour-link-focus: var(--colour-highlight);
     --colour-link-visited: rgb(230,230,230);
     --colour-link-active: rgb(230,230,230);
 }
@@ -77,7 +77,7 @@
         --colour-fg-base: rgb(230,230,230);
         --colour-link: rgb(230,230,230);
         --colour-link-hover: rgb(230,230,230);
-        --colour-link-focus: rgb(230,230,230);
+        --colour-link-focus: var(--colour-highlight);
         --colour-link-visited: rgb(230,230,230);
         --colour-link-active: rgb(230,230,230);
     }
