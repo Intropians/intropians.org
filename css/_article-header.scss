@@ -3,3 +3,8 @@
     font-size: var(--body-font-size);
     line-height: var(--body-line-height);
 }
+
+.article-header--invisible {
+    overflow: hidden;
+    height: 0;
+}

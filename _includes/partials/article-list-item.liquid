@@ -1,5 +1,6 @@
   <article class="article-list-item">
-    {% include 'partials/article-header' title: post.data.title, link: post.url, with_subtitle: true %}
+    {% include 'partials/article-header' title: post.data.title, link: post.url, invisible: true %}
+    {% include 'partials/article-excerpt' excerpt: post.data.excerpt %}
     {% include 'partials/article-content' content: post.data.content %}
     {% include 'partials/article-footer' author: post.data.author %}
   </article>
