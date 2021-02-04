@@ -1,0 +1,10 @@
+<ul class="primary-menu">
+
+{%- for item in collections.pages %}
+    {%- assign is_current = true %}
+    {% if page.url != item.url %}
+        {%- assign is_current = false %}
+    {% endif %}
+    {% include 'partials/primary-menu-item' url: item.url, title: item.data.title, is_current %}
+{% endfor -%}
+</ul>

@@ -5,4 +5,5 @@ home: true
 image: /images/intropians.png
 tags:
   - pages
+eleventyExcludeFromCollections: true
 ---
