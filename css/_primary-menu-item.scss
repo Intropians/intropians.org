@@ -1,0 +1,19 @@
+.primary-menu-item {
+    position: relative;
+    font-family: var(--font-sans-serif);
+    font-size: 0.8rem;
+}
+
+.primary-menu-item::before {
+    content: "";
+    position: absolute;
+    top: -4px;
+    width: 2px;
+    height: 2px;
+    border-radius: 1px;
+    left: calc(50% - 1px);
+}
+
+.primary-menu-item[aria-current="page"]::before {
+    background-color: currentColor;
+}

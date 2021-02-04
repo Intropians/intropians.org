@@ -1,1 +1,9 @@
-<li><a href="{{ url }}">{% if is_current %}!{% endif %}{{ title }}</a></li>
+<li class="primary-menu-item"{% if is_current %} aria-current="page"{% endif %}>
+    {% if is_current != true %}
+    <a href="{{ url }}">
+    {% endif %}
+        {{ title }}
+    {% if is_current != true %}    
+    </a>
+    {% endif %}
+</li>
