@@ -1,0 +1,7 @@
+.series-item {
+    margin-bottom: var(--margin);
+}
+
+.series-item:last-child {
+    margin-bottom: 0;
+}
