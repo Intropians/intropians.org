@@ -13,6 +13,7 @@
 
     --colour-highlight: rgb(47,116,60);
     --colour-bg-base: rgb(230,230,230);
+    --colour-bg-base-mid: rgba(0,0,0,0.1);
     --colour-fg-base: rgb(25,25,25);
     --colour-link: rgb(25,25,25);
     --colour-link-hover: rgb(25,25,25);
@@ -32,6 +33,7 @@
 :root[data-theme-preference="dark"] {
     --colour-highlight: rgb(77,153,92);
     --colour-bg-base: rgb(25,25,25);
+    --colour-bg-base-mid: rgba(255,255,255,0.1);
     --colour-fg-base: rgb(230,230,230);
     --colour-link: rgb(230,230,230);
     --colour-link-hover: rgb(230,230,230);
@@ -74,6 +76,7 @@
     :root:not([data-theme-preference]) {
         --colour-highlight: rgb(77,153,92);
         --colour-bg-base: rgb(25,25,25);
+        --colour-bg-base-mid: rgba(255,255,255,0.1);
         --colour-fg-base: rgb(230,230,230);
         --colour-link: rgb(230,230,230);
         --colour-link-hover: rgb(230,230,230);
