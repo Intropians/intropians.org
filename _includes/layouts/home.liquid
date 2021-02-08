@@ -2,7 +2,7 @@
 layout: layouts/base.liquid
 ---
 {%- if collections.time -%}
-  {%- assign series = collections.time | reverse -%}
+  {%- assign series = collections.time -%}
   {% include 'partials/series-container' series %}
 {%- endif -%}
 
@@ -10,5 +10,4 @@ layout: layouts/base.liquid
 {% include 'partials/article-header' title: metadata.title, invisible: true %}
 {% include 'partials/article-excerpt' excerpt: wtf_excerpt %}
 {% include 'partials/article-content' content %}
-{% include 'partials/article-footer' author: wtf_author %}
 </article>

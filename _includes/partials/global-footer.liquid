@@ -1,3 +1,8 @@
 <footer role="contentinfo" class="global-footer">
+  <div class="global-twitter">
+{% unless title == "We are:" -%}
+    <a href="/who/" aria-label="Who are the Intropians?">We are</a>
+{%- endunless %}
+  </div>
   {% include 'partials/global-twitter' %}
 </footer>
