@@ -2,7 +2,7 @@
 layout: layouts/base.liquid
 ---
 {%- if collections.time -%}
-  {%- assign series = collections.time | reverse -%}
+  {%- assign series = collections.time -%}
   {% include 'partials/series-container' series %}
 {%- endif -%}
 
