@@ -2,8 +2,11 @@
 layout: layouts/base.liquid
 ---
 {%- if collections.time -%}
-  {%- assign series = collections.time -%}
-  {% include 'partials/series-container' series %}
+  {% include 'partials/series-container' series: collections.time %}
+{%- endif -%}
+
+{%- if collections.death -%}
+  {% include 'partials/series-container' series: collections.death %}
 {%- endif -%}
 
 <article class="article">
