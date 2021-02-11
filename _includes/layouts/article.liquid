@@ -3,7 +3,7 @@ layout: layouts/base.liquid
 ---
 <article class="article">
   {% include 'partials/article-header' title %}
-  {% if excerpt -%}
+  {% if excerpt and show_excerpt -%}
   {% include 'partials/article-excerpt' excerpt %}
   {%- endif %}
   {% if note -%}
