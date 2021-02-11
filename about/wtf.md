@@ -6,6 +6,7 @@ permalink: /article-001/
 author: Egregore
 date: 2021-01-31
 image: /images/article-001.jpg
+show_excerpt: true
 tags:
     - about
     - wtf
