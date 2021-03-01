@@ -44,7 +44,14 @@
   h6 {
     font-size: 0.6em;
   }
-  p {
+
+  pre {
+    font-family: inherit;
+    font-size: inherit;
+  }
+
+  p, pre {
+    
     max-width: var(--max-readable-width);
     margin-top: 0;
     margin-bottom: var(--margin);
@@ -52,6 +59,7 @@
     margin-right: auto;
     text-align: var(--text-align);
   }
+
 
   ul, ol {
     max-width: var(--max-readable-width);

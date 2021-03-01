@@ -9,6 +9,10 @@ layout: layouts/base.liquid
   {% include 'partials/series-container' series: collections.death %}
 {%- endif -%}
 
+{%- if collections.psychadelic -%}
+  {% include 'partials/series-container' series: collections.psychadelic %}
+{%- endif -%}
+
 <article class="article">
 {% include 'partials/article-header' title: metadata.title, invisible: true %}
 {% include 'partials/article-excerpt' excerpt: wtf_excerpt %}
