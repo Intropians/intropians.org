@@ -9,10 +9,6 @@ layout: layouts/base.liquid
   {% include 'partials/series-container' series: collections.death %}
 {%- endif -%}
 
-{%- if collections.psychadelic -%}
-  {% include 'partials/series-container' series: collections.psychadelic %}
-{%- endif -%}
-
 {%- if collections.post -%}
 {%- assign postslist = collections.post | reverse -%}
 {% for post in postslist -%}
