@@ -9,6 +9,14 @@ layout: layouts/base.liquid
   {% include 'partials/series-container' series: collections.death %}
 {%- endif -%}
 
+{%- if collections.post -%}
+{%- assign postslist = collections.post | reverse -%}
+{% for post in postslist -%}
+  {% include 'partials/article-list-item' %}
+{%- endfor %}
+<hr class="global-hr global-hr--constrained">
+{%- endif -%}
+
 <article class="article">
 {% include 'partials/article-header' title: metadata.title, invisible: true %}
 {% include 'partials/article-excerpt' excerpt: wtf_excerpt %}
