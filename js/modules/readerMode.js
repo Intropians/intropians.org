@@ -35,7 +35,7 @@ const readerMode = (function() {
         return textNodes;
     }
 
-    function obfuscateNode(node) {
+    function obfuscateNode(node, i) {
         node.classList.add("obfuscate");
     }
 
