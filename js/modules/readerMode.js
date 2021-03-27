@@ -47,13 +47,13 @@ const readerMode = (function() {
 
     function hideNode(node) {
         let trigger = node.querySelector('.trigger');
-        trigger.textContent = '⬜';
+        trigger.textContent = '🔷';
         node.setAttribute('data-hidden', true);
     }
 
     function showNode(node) {
         let trigger = node.querySelector('.trigger');
-        trigger.textContent = '🟩';
+        trigger.textContent = '🔶';
         node.setAttribute('data-hidden', false);
     }
 
