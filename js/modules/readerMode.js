@@ -1,8 +1,9 @@
 const readerMode = (function() {
 
-    function setClickEvent(node, callback) {
-        node.addEventListener(
-            'click',
+    function setClickEvent(node, event, callback) {
+        let trigger = node.querySelector('.trigger');
+        trigger.addEventListener(
+            event,
             event => callback(node)
         );
     }
@@ -36,18 +37,33 @@ const readerMode = (function() {
     }
 
     function obfuscateNode(node, i) {
+        let trigger = document.createElement('button');
+        trigger.classList.add("trigger");
+        node.appendChild(trigger);
         node.classList.add("obfuscate");
+        hideNode(node);
+
     }
 
-    function revealNode(node) {
-        node.classList.remove("obfuscate");
+    function hideNode(node) {
+        let trigger = node.querySelector('.trigger');
+        trigger.textContent = '⬜';
+        node.setAttribute('data-hidden', true);
+    }
+
+    function showNode(node) {
+        let trigger = node.querySelector('.trigger');
+        trigger.textContent = '🟩';
+        node.setAttribute('data-hidden', false);
     }
 
     function init(elem) {
         const textNodes = getTextNodesIn(elem);
         for (var i = 0; i < textNodes.length; i++) {
             obfuscateNode(textNodes[i]);
-            setClickEvent(textNodes[i], revealNode)
+            setClickEvent(textNodes[i], 'mousedown', showNode);
+            setClickEvent(textNodes[i], 'mouseup', hideNode);
+            setClickEvent(textNodes[i], 'mouseleave', hideNode);
         }
         console.log(textNodes);
     }
