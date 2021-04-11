@@ -1,10 +1,18 @@
-# intropians.org
-The website
+# Intropians.org
 
-best to use `yarn` as a package manager
 
-run `yarn build` to build static assets
+## Run locally
 
-run `yarn build:clean` to delete all existing assets then build again
+1. Install dependencies for [Beautiful Jekyll](.README_forked.md)
+2. `bundle install`
+3. ` bundle exec jekyll serve`
+4. visit [localhost:4000](http://127.0.0.1:4000)
 
-run `yarn serve` to run local server
+
+
+## Acknowledgement 
+
+Website theme forked from [Beautiful Jekyll](.README_forked.md)
+
+
+
