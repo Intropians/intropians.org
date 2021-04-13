@@ -25,7 +25,7 @@ navbar-links:
 
 # Image to show in the navigation bar - works best with a square image
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/images/intropians.png"
+avatar: "/images/logo.png"
 
 # By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
 round-avatar: true
@@ -40,12 +40,12 @@ round-avatar: true
 # Select the social network links that you want to show in the footer.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "annbrody3@gmail.com"
+  email: "egregore@intropians.org"
   # facebook: deanattali
   github: intropians
   twitter: intropians
   # patreon: DeanAttali
-  # youtube: c/daattali
+  youtube: channel/UC3Gl6YYY4CIzHbEFg4OH3AA
 #  medium: yourname
 #  reddit: yourname
 #  linkedin: daattali
@@ -75,18 +75,18 @@ rss-description: We are the Intropians, a critique of and commentary on the extr
 share-links-active:
   twitter: true
   facebook: true
-  linkedin: true
+  linkedin: false
   vk: false
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "Intropians.com"
+url-pretty: "intropians.org"
 
 # Excerpt word length - Truncate the excerpt of each post on the feed page to the specified number of words
 excerpt_length: 50
 
 # Whether or not to show an excerpt for every blog post in the feed page
-feed_show_excerpt: true
+feed_show_excerpt: false
 
 # Whether or not to show a list of tags below each post preview in the feed page
 feed_show_tags: true
@@ -113,16 +113,17 @@ feed_show_tags: true
 
 
 # Dark Theme
-navbar-col: "#18191a"
-navbar-text-col: "#4D995C"
-navbar-border-col: "#DDDDDD"
-page-col: "#18191a"
-text-col: "#FFFFFF"
-link-col: "#008AFF"
-hover-col: "#0085A1"
-footer-col: "#18191a"
-footer-text-col: "#EAEAEA"
-footer-link-col: "#404040"
+navbar-col: "rgb(25,25,25)"
+navbar-text-col: "rgb(230,230,230)"
+navbar-border-col: "rgb(77,153,92)"
+page-col: "rgb(25,25,25)"
+text-col: "rgb(230,230,230)"
+link-col: "rgb(77,153,92)"
+hover-col: "rgb(77,153,92)"
+footer-col: "rgb(25,25,25)"
+footer-text-col: "rgb(230,230,230)"
+footer-link-col: "rgb(77,153,92)"
+color-bg-base-mid: "rgba(255,255,255,0.1)"
 
 
 # Alternatively, the navbar, footer, and page background can be set to an image
@@ -136,8 +137,8 @@ footer-link-col: "#404040"
 #mobile-theme-col: "#0085A1"
 
 # For any extra visual customization, you can include additional CSS files in every page on your site. List any custom CSS files here
-#site-css:
-#  - "/assets/css/custom-styles.css"
+site-css:
+  - "/assets/css/fonts.css"
 
 # If you have common JavaScript files that should be included in every page, list them here
 #site-js:
