@@ -55,8 +55,11 @@ a:focus {
   color: {{ site.hover-col | default: "#0085A1" }};
 }
 blockquote {
+  padding: 0 1.25rem;
+  margin: 1.25rem 0;
   color: currentColor;
   font-style: italic;
+  border-left: 1px solid currentColor;
 }
 blockquote p:first-child {
   margin-top: 0;
