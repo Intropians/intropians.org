@@ -1,0 +1,24 @@
+figure {
+    margin-left: auto;
+    margin-right: auto;
+    overflow: auto;
+    padding-top: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  figcaption {
+    font-family: 'Barlow', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    padding-top: 0.625rem;
+    font-size: 0.8rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  img {
+    display: block;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+  }
