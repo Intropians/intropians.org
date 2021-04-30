@@ -16,9 +16,11 @@ url: https://www.intropians.org
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  NFT: "https://rarible.com/intropians"
   Blog: "index"
+  Videos: "videos"
   About Us: "aboutus"
+  NFT: "https://rarible.com/intropians"
+  
   # Resources:
   #   - Beautiful Jekyll: "https://beautifuljekyll.com"
   #   - Learn markdown: "https://www.markdowntutorial.com/"
@@ -250,3 +252,69 @@ exclude:
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
+
+videos:
+  -
+    title: How do you die when you can't die?
+    url: https://www.youtube.com/watch?v=scqkK4GLjDY
+    image: /images/thumbnail-podcast-highlights-02.png
+  -
+    title: "Episode 2 - Conversation: What does it really mean to be an extropian?"
+    url: https://www.youtube.com/watch?v=Khty9SJo65Q
+    image: /images/thumbnail-podcast-02.png
+  -
+    title: How do you die when you can't die?
+    url: https://www.youtube.com/watch?v=scqkK4GLjDY
+    image: /images/thumbnail-podcast-highlights-02.png
+  -
+    title: "Episode 2 - Conversation: What does it really mean to be an extropian?"
+    url: https://www.youtube.com/watch?v=Khty9SJo65Q
+    image: /images/thumbnail-podcast-02.png
+  -
+    title: How do you die when you can't die?
+    url: https://www.youtube.com/watch?v=scqkK4GLjDY
+    image: /images/thumbnail-podcast-highlights-02.png
+  -
+    title: "Episode 2 - Conversation: What does it really mean to be an extropian?"
+    url: https://www.youtube.com/watch?v=Khty9SJo65Q
+    image: /images/thumbnail-podcast-02.png
+  -
+    title: How do you die when you can't die?
+    url: https://www.youtube.com/watch?v=scqkK4GLjDY
+    image: /images/thumbnail-podcast-highlights-02.png
+  -
+    title: "Episode 2 - Conversation: What does it really mean to be an extropian?"
+    url: https://www.youtube.com/watch?v=Khty9SJo65Q
+    image: /images/thumbnail-podcast-02.png
+  -
+    title: How do you die when you can't die?
+    url: https://www.youtube.com/watch?v=scqkK4GLjDY
+    image: /images/thumbnail-podcast-highlights-02.png
+  -
+    title: "Episode 2 - Conversation: What does it really mean to be an extropian?"
+    url: https://www.youtube.com/watch?v=Khty9SJo65Q
+    image: /images/thumbnail-podcast-02.png
+  -
+    title: How do you die when you can't die?
+    url: https://www.youtube.com/watch?v=scqkK4GLjDY
+    image: /images/thumbnail-podcast-highlights-02.png
+  -
+    title: "Episode 2 - Conversation: What does it really mean to be an extropian?"
+    url: https://www.youtube.com/watch?v=Khty9SJo65Q
+    image: /images/thumbnail-podcast-02.png
+  -
+    title: How do you die when you can't die?
+    url: https://www.youtube.com/watch?v=scqkK4GLjDY
+    image: /images/thumbnail-podcast-highlights-02.png
+  -
+    title: "Episode 2 - Conversation: What does it really mean to be an extropian?"
+    url: https://www.youtube.com/watch?v=Khty9SJo65Q
+    image: /images/thumbnail-podcast-02.png
+  -
+    title: How do you die when you can't die?
+    url: https://www.youtube.com/watch?v=scqkK4GLjDY
+    image: /images/thumbnail-podcast-highlights-02.png
+  -
+    title: "Episode 2 - Conversation: What does it really mean to be an extropian?"
+    url: https://www.youtube.com/watch?v=Khty9SJo65Q
+    image: /images/thumbnail-podcast-02.png
