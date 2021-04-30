@@ -479,6 +479,7 @@ footer .footer-custom-content {
   margin: 0;
   font-weight: 300;
   margin-bottom: 0.625rem;
+  font-family: 'Redaction', 'Lora', 'Times New Roman', serif;
 }
 .post-preview .post-meta,
 .post-heading .post-meta {
@@ -564,7 +565,7 @@ footer .footer-custom-content {
 
 .blog-tags {
   font-family: 'Barlow', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-size: 0.9375rem;
+  font-size: 0.8rem;
   margin: 1.875rem 0;
 }
 
