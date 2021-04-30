@@ -140,6 +140,7 @@ color-bg-base-mid: "rgba(255,255,255,0.1)"
 site-css:
   - "/assets/css/fonts.css"
   - "/assets/css/figure.css"
+  - "/assets/css/post.css"
 
 # If you have common JavaScript files that should be included in every page, list them here
 #site-js:
