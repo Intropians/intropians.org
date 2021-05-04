@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About Us
-subtitle: 'We are the Intropians, a critique of and commentary on the extropian movement bound up in its many tangents of thought that it evokes.'
+subtitle: 'Interrogating the cult of software eating the world by making it eat its own shit'
 tags: ['about','wtf']
 date: 2021-01-31
 permalinks: [/aboutus/]
