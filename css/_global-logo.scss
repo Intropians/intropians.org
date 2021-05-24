@@ -3,6 +3,7 @@
   font-weight: 700;
   font-size: 0.8rem;
   color: var(--colour-highlight);
+  line-height: inherit;
 }
 
 a.global-logo__link {
@@ -12,5 +13,6 @@ a.global-logo__link {
   &:hover,
   &:active {
     color: inherit;
+    text-decoration: none;
   }
 }
