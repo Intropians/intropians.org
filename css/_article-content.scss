@@ -18,7 +18,6 @@
   h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-sans-serif);
     font-weight: 400;
-    max-width: var(--max-readable-width);
     margin-top: 0;
     padding-top: var(--margin);
     margin-bottom: var(--margin);
@@ -45,7 +44,6 @@
     font-size: 0.6em;
   }
   p {
-    max-width: var(--max-readable-width);
     margin-top: 0;
     margin-bottom: var(--margin);
     margin-left: auto;
@@ -54,7 +52,6 @@
   }
 
   ul, ol {
-    max-width: var(--max-readable-width);
     padding-left: var(--margin);
     margin-bottom: var(--margin);
     margin-left: auto;
@@ -66,7 +63,6 @@
   }
 
   hr {
-    max-width: var(--max-readable-width);
     border: 0;
     height: 1px;
     background-color: currentColor;
@@ -77,7 +73,6 @@
   }
 
   blockquote {
-    max-width: var(--max-readable-width);
     padding-left: var(--margin);
     padding-right: 0;
     margin-left: auto;
@@ -141,7 +136,6 @@
     caption-side: bottom;
     text-align: left;
     padding-bottom: 1em;
-    max-width: var(--max-readable-width);
     margin-left: auto;
     margin-right: auto;
   }
@@ -152,17 +146,12 @@
     overflow: auto;
     padding-top: var(--margin);
     margin-bottom: var(--margin-large);
-    max-width: var(--max-content-width);
-    &.article-image-constrained {
-      max-width: var(--max-readable-width);
-    }
   }
   
   figcaption {
     font-family: var(--font-sans-serif);
     padding-top: var(--margin);
     font-size: 0.8em;
-    max-width: var(--max-readable-width);
     text-align: center;
     margin-left: auto;
     margin-right: auto;

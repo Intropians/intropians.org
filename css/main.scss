@@ -13,11 +13,15 @@
 
 @import 'main-content';
 
+@import 'global-utility-menu';
 @import 'global-header';
 @import 'global-footer';
 
 @import 'global-logo';
 @import 'global-twitter';
+
+@import 'global-hr';
+@import 'global-divider';
 
 @import 'article-note';
 @import 'article-header';
@@ -33,7 +37,6 @@
 @import 'page-header';
 @import 'page-title';
 
-@import 'global-hr';
 
 @import 'theme-button';
 @import 'theme-buttons';

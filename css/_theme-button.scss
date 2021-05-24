@@ -25,31 +25,22 @@
         color: var(--colour-highlight);
         outline: none;
     }
-    &::before {
-        content: "";
-        position: absolute;
-        top: -4px;
-        width: 2px;
-        height: 2px;
-        border-radius: 1px;
-        left: calc(50% - 1px);
-    }
 }
 
 :root:not([data-theme-preference]) {
-    .theme-button--auto::before {
-        background-color: currentColor;
+    .theme-button--auto {
+        text-decoration: underline;
     }
 }
 
 [data-theme-preference="dark"] {
-    .theme-button--dark::before {
-        background-color: currentColor;
+    .theme-button--dark {
+        text-decoration: underline;
     }
 }
 
 [data-theme-preference="light"] {
-    .theme-button--light::before {
-        background-color: currentColor;
+    .theme-button--light {
+        text-decoration: underline;
     }
 }
