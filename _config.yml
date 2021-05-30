@@ -93,6 +93,9 @@ feed_show_excerpt: false
 # Whether or not to show a list of tags below each post preview in the feed page
 feed_show_tags: true
 
+# Whether or not to show the list of authors below each post preview in the feed page
+feed_show_authors: true
+
 # The keywords to associate with your website, for SEO purposes
 #keywords: "my,list,of,keywords"
 

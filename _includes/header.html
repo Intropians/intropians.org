@@ -49,7 +49,18 @@
             {% if page.readtime %}
               {% include readtime.html %}
             {% endif %}
+
+            {% if page.authors.size > 0 %}      
+              <br/>      
+              <span class="post-meta">By: 
+                {% for author in page.authors %}
+                  {{- author -}}
+                {% endfor %}
+              </span>            
+            {% endif %}
+
           {% endif %}
+
         </div>
       </div>
     </div>
