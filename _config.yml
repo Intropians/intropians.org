@@ -16,7 +16,6 @@ url: https://www.intropians.org
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  NFT: "https://rarible.com/intropians"
   Blog: "index"
   About Us: "aboutus"
   # Resources:
